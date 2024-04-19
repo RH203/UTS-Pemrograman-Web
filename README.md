@@ -8,6 +8,7 @@ EduTech merupakan sebuah website yang menyediakan kelas atau kursus terkait soft
 - Tuliskan `commit` singkat dan juga jelas di setiap perubahan
 - Tuliskan code di dalam file yg sudah di sediakan di dalam folder `pages`
 - Sebelum memulai mengerjakan, silahkan copy starter templatenya yg ada di direktory `pages/layouts/template.html`
+- Diharapkan hasilnya sudah responsive di device handphone, tablet, desktop.
 
 # Folder Structur
 ```
