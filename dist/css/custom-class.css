@@ -5,6 +5,7 @@
   --main-color: #A4074D;
   --white-color: #fff;
   --gray-text-color: #939393;
+  --dark-gray-text-color: #7b7b7b;
 }
 
 
@@ -26,6 +27,10 @@
 .gray-color {
   color: var(--gray-text-color);
 }
+
+.dark-gray-color {
+  color: var(--dark-gray-text-color);
+} 
 
 
 .border-main {

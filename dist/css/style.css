@@ -64,18 +64,18 @@
 
 
 /* Our class style */
-#our-class .tab-category {
+#our-class-section .tab-category {
   width: 50%;
   background-color: var(--lightgray-bg-color);
 }
 
-#our-class .tab-category .row a {
+#our-class-section .tab-category .row a {
   width: 100%;
   height: 40px;
   line-height: 40px
 }
 
-#our-class .tab-category .row a.active {
+#our-class-section .tab-category .row a.active {
   background-color: var(--white-color);
 }
 
