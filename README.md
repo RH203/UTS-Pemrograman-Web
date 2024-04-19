@@ -8,4 +8,28 @@ EduTech merupakan sebuah website yang menyediakan kelas atau kursus terkait soft
 - Tuliskan `commit` singkat dan juga jelas di setiap perubahan
 
 # Folder Structur
+```
+dist
+├── assets
+│   ├── icon
+│   ├── img
+│   └── logo
+├── css
+│   ├── custom-class.css
+│   └── style.css
+└── js
+    └── script.js
+          
+pages
+├── layouts
+│   └── template.html
+└── Course
+    ├── blog.html
+    ├── class.html
+    ├── detail-blog.html
+    └── detail-class.html
+
+index.html
+
+```
 
