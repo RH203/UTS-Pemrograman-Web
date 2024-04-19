@@ -1,12 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
 
 :root {
-  --brigh-blue-color: #F9FCFF;
+  --bright-blue-color: #F9FCFF;
   --black-color: #1A2434;
   --main-color: #A4074D;
   --white-color: #fff;
+  --gray-text-color: #9e9e9e;
 }
 
+
+/* General style */
 * {
   margin: 0;
   padding: 0;
@@ -14,31 +17,21 @@
   font-family: "Outfit", sans-serif;
 }
 
-.bg-main {
-  background-color: var(--main-color);
-  color:var(--white-color) ;
+
+/* Icon Style */
+.icon-search {
+  top: 10px;
+  left: 10px;
 }
 
-.main-color {
-  color: var(--main-color);
-}
-
-.border-main {
-  border: 2px solid var(--main-color);
-}
 
 
 /* Jumbotron section style */
 #jumbotron-section{
-  background-color: var(--brigh-blue-color);
   display: flex;
   align-items: center;
   height: 100vh;
 }
-
-
-
-
 
 #jumbotron-section h1 {
   font-size: 50px;
@@ -62,14 +55,13 @@
 }
 
 
-
+/* Best learning experience style */
 .certified-instructor .card {
   top: 160px;
   width: 300px;
 }
 
-/* Icon Style */
-.icon-search {
-  top: 10px;
-  left: 10px;
-}
+
+
+
+

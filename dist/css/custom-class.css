@@ -1,0 +1,88 @@
+
+:root {
+  --bright-blue-color: #F9FCFF;
+  --black-color: #1A2434;
+  --main-color: #A4074D;
+  --white-color: #fff;
+  --gray-text-color: #939393;
+}
+
+
+/* Custom color */
+.bg-main {
+  background-color: var(--main-color);
+  color:var(--white-color) ;
+}
+
+.bg-bright-blue {
+  background-color: var(--bright-blue-color);
+}
+
+
+.main-color {
+  color: var(--main-color);
+}
+
+.gray-color {
+  color: var(--gray-text-color);
+}
+
+
+.border-main {
+  border: 2px solid var(--main-color);
+}
+
+
+
+/* custom font size */
+.fs-15 {
+  font-size: 15px;
+}
+.fs-20 {
+  font-size: 20px;
+}
+.fs-25 {
+  font-size: 25px;
+}
+.fs-30 {
+  font-size: 30px;
+}
+.fs-35 {
+  font-size: 35px;
+}
+.fs-40 {
+  font-size: 40px;
+}
+.fs-45 {
+  font-size: 45px;
+}
+.fs-50 {
+  font-size: 50px;
+}
+.fs-55 {
+  font-size: 55px;
+}
+.fs-60 {
+  font-size: 60px;
+}
+.fs-65 {
+  font-size: 65px;
+}
+.fs-70 {
+  font-size: 70px;
+}
+.fs-80 {
+  font-size: 80px;
+}
+.fs-90 {
+  font-size: 90px;
+}
+
+
+header h5 .line-horizontal{
+  width: 60px;
+  height: 4px;
+  display: inline-block;
+  margin: 0 12px 4px 0;
+  background-color: var(--main-color);
+}
