@@ -23,11 +23,10 @@ dist
 pages
 ├── layouts
 │   └── template.html
-└── Course
-    ├── blog.html
-    ├── class.html
-    ├── detail-blog.html
-    └── detail-class.html
+├── blog.html
+├── class.html
+├── detail-blog.html
+└── detail-class.html
 
 index.html
 
