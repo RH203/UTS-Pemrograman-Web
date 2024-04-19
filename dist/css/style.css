@@ -6,6 +6,7 @@
   --main-color: #A4074D;
   --white-color: #fff;
   --gray-text-color: #9e9e9e;
+  --lightgray-bg-color: #F4F4F4;
 }
 
 
@@ -60,6 +61,24 @@
   top: 160px;
   width: 300px;
 }
+
+
+/* Our class style */
+#our-class .tab-category {
+  width: 50%;
+  background-color: var(--lightgray-bg-color);
+}
+
+#our-class .tab-category .row a {
+  width: 100%;
+  height: 40px;
+  line-height: 40px
+}
+
+#our-class .tab-category .row a.active {
+  background-color: var(--white-color);
+}
+
 
 
 
