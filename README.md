@@ -7,6 +7,7 @@ EduTech merupakan sebuah website yang menyediakan kelas atau kursus terkait soft
 - Membuat branch baru dengan nama sendiri
 - Sertakan `comment` di setiap section code yang di tulis
 - Tuliskan `commit` singkat dan juga jelas di setiap perubahan
+- Sebelum pull request harap pull di lokal dulu untuk mendapatkan perubahan terbaru
 - Pull Request kedalam branch `develop`
 - Diharapkan hasilnya sudah responsive di device handphone, tablet, desktop.
 
