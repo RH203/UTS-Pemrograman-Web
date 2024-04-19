@@ -81,6 +81,44 @@
 
 
 
+/* Subscribe style */
+
+#subscribe-section .form-control {
+  height: 60px;
+  background: #ffffff9a;
+  border: none;
+  font-size: 17px;
+  padding: 0 160px 0 45px;
+}
+
+#subscribe-section form iconify-icon {
+  top: 17px;
+  left: 10px;
+}
+
+#subscribe-section form button {
+  right: 10px;
+  top: 10px;
+}
+
+#subscribe-section .form-control:focus {
+  box-shadow: none;
+}
+.btn-subscribe {
+  width: 140px;
+  height: 40px;
+  border: none;
+  background-color: var(--black-color);
+  color: var(--white-color);
+}
+
+
+
+/* Footer style */
+footer {
+  padding: 100px 0;
+  background-color: var(--black-color);
+}
 
 
 
