@@ -6,8 +6,9 @@
     width: 100%;
   }
 
-  #our-class-section .tab-category .row a {
-    font-size: 12px;
+  #our-class-section .tab-category button {
+    font-size: 9px;
+    width: 110px;
   }
 
   /* Subscribe */
