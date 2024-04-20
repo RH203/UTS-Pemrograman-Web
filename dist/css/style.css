@@ -18,6 +18,10 @@
   font-family: "Outfit", sans-serif;
 }
 
+body {
+  overflow-x: hidden !important;
+}
+
 
 /* Icon Style */
 .icon-search {
@@ -55,6 +59,13 @@
   border: 4px solid var(--white-color);
 }
 
+#jumbotron-section .button a {
+  width: 180px;
+  height: 60px;
+  text-align: center;
+  line-height: 60px;
+}
+
 
 /* Best learning experience style */
 .certified-instructor .card {
@@ -65,18 +76,31 @@
 
 /* Our class style */
 #our-class-section .tab-category {
-  width: 50%;
+  width: 60%;
   background-color: var(--lightgray-bg-color);
 }
 
-#our-class-section .tab-category .row a {
-  width: 100%;
-  height: 40px;
-  line-height: 40px
+#our-class-section .tab-category .nav.nav-tabs {
+  display: flex;
+  justify-content: space-between;
 }
 
-#our-class-section .tab-category .row a.active {
+
+#our-class-section .tab-category button {
+  width: 200px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  flex-wrap: nowrap;
+  border: none;
+}
+
+#our-class-section .tab-category button.active {
   background-color: var(--white-color);
+}
+
+.nav-tabs {
+  --bs-nav-tabs-border-width: none;
 }
 
 
@@ -121,4 +145,41 @@ footer {
 }
 
 
+footer .quick-links {
+  display: flex;
+  justify-content: end;
+}
 
+
+
+/* Animation */
+
+@keyframes animasiCertifiedInstructor {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(80px);
+  }
+}
+
+.certified-instructor .card {
+  animation: animasiCertifiedInstructor 2s linear infinite alternate;
+}
+
+
+@keyframes totalStudentAnimation {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+
+}
+
+
+.total-students .count {
+  animation: totalStudentAnimation 4s linear infinite alternate;
+}

@@ -84,6 +84,15 @@
 }
 
 
+
+/* Another custom */
+
+.navbar-solid {
+  background-color: var(--white-color);
+  box-shadow: 0 10px 10px #6b6b6b4d;
+  transition: .5s;
+}
+
 header h5 .line-horizontal{
   width: 60px;
   height: 4px;
@@ -91,3 +100,4 @@ header h5 .line-horizontal{
   margin: 0 12px 4px 0;
   background-color: var(--main-color);
 }
+
