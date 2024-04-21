@@ -20,7 +20,7 @@ dist
 │   └── logo
 ├── css
 │   ├── custom-class.css
-    ├── responsive.css
+│   ├── responsive.css
 │   └── style.css
 └── js
     └── script.js
