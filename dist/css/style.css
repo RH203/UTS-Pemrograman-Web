@@ -1,14 +1,13 @@
-@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
 
 :root {
-  --bright-blue-color: #F9FCFF;
-  --black-color: #1A2434;
-  --main-color: #A4074D;
+  --bright-blue-color: #f9fcff;
+  --black-color: #1a2434;
+  --main-color: #a4074d;
   --white-color: #fff;
   --gray-text-color: #9e9e9e;
-  --lightgray-bg-color: #F4F4F4;
+  --lightgray-bg-color: #f4f4f4;
 }
-
 
 /* General style */
 * {
@@ -18,10 +17,10 @@
   font-family: "Outfit", sans-serif;
 }
 
-html,body {
+html,
+body {
   overflow-x: hidden !important;
 }
-
 
 /* Icon Style */
 .icon-search {
@@ -29,10 +28,8 @@ html,body {
   left: 10px;
 }
 
-
-
 /* Jumbotron section style */
-#jumbotron-section{
+#jumbotron-section {
   display: flex;
   align-items: center;
   height: 100vh;
@@ -46,9 +43,8 @@ html,body {
   border-left: 4px solid var(--main-color);
 }
 
-
-#jumbotron-section .avatar-student, 
-#jumbotron-section .count{
+#jumbotron-section .avatar-student,
+#jumbotron-section .count {
   width: 70px;
   height: 70px;
   border-radius: 100%;
@@ -66,13 +62,11 @@ html,body {
   line-height: 60px;
 }
 
-
 /* Best learning experience style */
 .certified-instructor .card {
   top: 160px;
   width: 300px;
 }
-
 
 /* Our class style */
 #our-class-section .tab-category {
@@ -84,7 +78,6 @@ html,body {
   display: flex;
   justify-content: space-between;
 }
-
 
 #our-class-section .tab-category button {
   width: 200px;
@@ -102,8 +95,6 @@ html,body {
 .nav-tabs {
   --bs-nav-tabs-border-width: none;
 }
-
-
 
 /* Subscribe style */
 
@@ -136,21 +127,16 @@ html,body {
   color: var(--white-color);
 }
 
-
-
 /* Footer style */
 footer {
   padding: 100px 0;
   background-color: var(--black-color);
 }
 
-
 footer .quick-links {
   display: flex;
   justify-content: end;
 }
-
-
 
 /* Animation */
 
@@ -167,7 +153,6 @@ footer .quick-links {
   animation: animasiCertifiedInstructor 2s linear infinite alternate;
 }
 
-
 @keyframes totalStudentAnimation {
   0% {
     transform: rotate(0deg);
@@ -176,10 +161,28 @@ footer .quick-links {
   100% {
     transform: rotate(360deg);
   }
-
 }
-
 
 .total-students .count {
   animation: totalStudentAnimation 4s linear infinite alternate;
+}
+
+
+
+
+
+/* Cart page Style */
+#cart-section h4 {
+  font-size: 1.5rem;
+}
+
+#cart-section iconify-icon {
+  font-size: 1.2rem;
+}
+
+#cart-section .price {
+  font-size: 1.5rem;
+}
+#cart-section .course-img {
+  width: 200px;
 }
