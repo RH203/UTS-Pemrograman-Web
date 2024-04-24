@@ -17,6 +17,30 @@
     margin-bottom: 30px;
   }
 
+  /* Cart */
+  #cart-section h4 {
+    font-size: 1rem;
+  }
+
+  #cart-section iconify-icon {
+    font-size: 17px;
+  }
+
+  #cart-section .price {
+    font-size: 1rem;
+  }
+
+  #cart-section td {
+    white-space: nowrap; 
+  }
+
+  #cart-section .course-img {
+    width: 120px;
+  }
+/* 
+  #cart-section table thead .class {
+    width: 800px;
+  } */
 
   /* Footer */
   footer .quick-links {
