@@ -6,7 +6,8 @@
   --main-color: #a4074d;
   --white-color: #fff;
   --gray-text-color: #9e9e9e;
-  --lightgray-bg-color: #f4f4f4;
+  --lightgray-bg-color: #ededed;
+  --body-bg-color :  #F6F8FD;
 }
 
 /* General style */
@@ -20,6 +21,7 @@
 html,
 body {
   overflow-x: hidden !important;
+  background-color: var(--body-bg-color);
 }
 
 /* Icon Style */
@@ -68,6 +70,18 @@ body {
   width: 300px;
 }
 
+
+/* Experience style */
+#experience .card {
+  background-color: var(--body-bg-color);
+}
+
+#experience .card:hover {
+  transition: .3s;
+  box-shadow: 2px 2px 5px 5px var(--lightgray-bg-color);
+}
+
+
 /* Our class style */
 #our-class-section .tab-category {
   width: 60%;
@@ -89,7 +103,7 @@ body {
 }
 
 #our-class-section .tab-category button.active {
-  background-color: var(--white-color);
+  background-color: var(--body-bg-color);
 }
 
 .nav-tabs {
@@ -125,6 +139,11 @@ body {
   border: none;
   background-color: var(--black-color);
   color: var(--white-color);
+}
+
+/* Sigin page - Login*/
+#form-container {
+  width: 40%;
 }
 
 /* Footer style */
@@ -167,10 +186,6 @@ footer .quick-links {
   animation: totalStudentAnimation 4s linear infinite alternate;
 }
 
-
-
-
-
 /* Cart page Style */
 #cart-section h4 {
   font-size: 1.5rem;
@@ -186,98 +201,3 @@ footer .quick-links {
 #cart-section .course-img {
   width: 200px;
 }
-
-
-/* Blog page style */
-#title-blog {
-  padding-left: 10%;
-  padding-right: 10%;
-  border: 5px solid black;
-}
-
-.title-blog {
-  width: 50%;
-}
-
-.container-blog-content {
-  width: 60%;
-  padding-top: 20px;
-  display: flex;
-  justify-content: space-between;
-  border: 5px solid brown;
-}
-
-.container-blog-content-main {
-  display: flex;
-  border: 5px solid greenyellow;
-}
-
-.profile-blog {
-  justify-content: space-between;
-  display: flex;
-}
-
-.profile-blog-img {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.profile-blog-name {
-  margin-left: 10px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-
-.profile-blog-name h5 {
-  margin-bottom: -2px;
-}
-
-.calendar-blog {
-  display: flex;
-  justify-content: flex-end;
-  align-items: flex-end;
-  width: 200px;
-  height: 100px;
-  background-color: blueviolet;
-}
-
-.blog-content {
-  margin-bottom: 200px;
-}
-
-.blog-content p {
-  margin-top: 50px;
-}
-
-.blog-trending-news {
-  border: 5px solid red;
-}
-
-.container-news-item {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  padding-bottom: 200px;
-  padding-left: 10%;
-}
-
-.news-item {
-  border: 1px solid #9e9e9e;
-  border-radius: 10px;
-  display: flex;
-  flex-direction: column;
-  margin: 20px;
-  padding: 20px;
-  width: 230px;
-  max-width: fit-content;
-  
-}
-
-.news-item img {
-  width:100%;
-  border-radius: 10px;
-}
-
-/* Blog page style */

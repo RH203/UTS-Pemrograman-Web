@@ -2,10 +2,11 @@
 :root {
   --bright-blue-color: #F9FCFF;
   --black-color: #1A2434;
-  --main-color: #A4074D;
+  --main-color: #a4074d;
   --white-color: #fff;
   --gray-text-color: #939393;
   --dark-gray-text-color: #7b7b7b;
+  --bg-img-card-color: #D9D9D9;
 }
 
 
@@ -19,6 +20,9 @@
   background-color: var(--bright-blue-color);
 }
 
+.bg-grey-color {
+  background-color: var(--bg-img-card-color);
+}
 
 .main-color {
   color: var(--main-color);
@@ -40,6 +44,9 @@
 
 
 /* custom font size */
+.fs-13{
+  font-size: 14px;
+}
 .fs-15 {
   font-size: 15px;
 }
@@ -103,5 +110,9 @@ header h5 .line-horizontal{
   display: inline-block;
   margin: 0 12px 4px 0;
   background-color: var(--main-color);
+}
+
+.text-main {
+  color: var(--main-color);
 }
 
