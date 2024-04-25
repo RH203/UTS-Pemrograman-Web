@@ -1,5 +1,4 @@
-/* Phone Devices */
-
+/* Phone Devices = Width 600px*/
 @media only screen and (max-width: 600px) {
   /* Our class */
   #our-class-section .tab-category {
@@ -31,13 +30,19 @@
   }
 
   #cart-section td {
-    white-space: nowrap; 
+    white-space: nowrap;
   }
 
   #cart-section .course-img {
     width: 120px;
   }
-/* 
+
+  /* Detail class - Preview and lesson section*/
+  #preview-lesson {
+    margin-top: 20px;
+  }
+
+  /* 
   #cart-section table thead .class {
     width: 800px;
   } */
@@ -47,15 +52,30 @@
     display: flex;
     justify-content: start;
   }
-  
+
+  /* Sigin page - Login*/
+  #form-container {
+    width: 70%;
+  }
 }
 
+/* Phone Devices = Width 400px*/
+@media only screen and (max-width: 400px) {
+  /* Button Description*/
+  #button-container {
+    font-size: 0.7em;
+  }
 
+  /* Sigin page - Login*/
+  #form-container {
+    width: 80%;
+  }
+}
 
-/* Tablet Device */
+/* Tablet Device - Width 900px */
 @media only screen and (max-width: 900px) {
-   /* Our class */
-   #our-class-section .tab-category {
+  /* Our class */
+  #our-class-section .tab-category {
     width: 100%;
   }
 
@@ -65,10 +85,18 @@
     margin-bottom: 30px;
   }
 
-
   footer .quick-links {
     display: flex;
     justify-content: start;
   }
 
+  /* Detail class - Preview and lesson section*/
+  #lesson-container {
+    margin-top: 20px;
+  }
+
+  /* Sigin page - Login*/
+  #form-container {
+    width: 70%;
+  }
 }
