@@ -52,6 +52,11 @@
     display: flex;
     justify-content: start;
   }
+
+  /* Sigin page - Login*/
+  #form-container {
+    width: 70%;
+  }
 }
 
 /* Phone Devices = Width 400px*/
@@ -59,6 +64,11 @@
   /* Button Description*/
   #button-container {
     font-size: 0.7em;
+  }
+
+  /* Sigin page - Login*/
+  #form-container {
+    width: 80%;
   }
 }
 
@@ -83,5 +93,10 @@
   /* Detail class - Preview and lesson section*/
   #lesson-container {
     margin-top: 20px;
+  }
+
+  /* Sigin page - Login*/
+  #form-container {
+    width: 70%;
   }
 }

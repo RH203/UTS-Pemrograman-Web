@@ -127,6 +127,11 @@ body {
   color: var(--white-color);
 }
 
+/* Sigin page - Login*/
+#form-container {
+  width: 40%;
+}
+
 /* Footer style */
 footer {
   padding: 100px 0;
@@ -166,10 +171,6 @@ footer .quick-links {
 .total-students .count {
   animation: totalStudentAnimation 4s linear infinite alternate;
 }
-
-
-
-
 
 /* Cart page Style */
 #cart-section h4 {
