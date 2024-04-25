@@ -206,7 +206,6 @@ footer .quick-links {
 #title-blog {
   padding-left: 10%;
   padding-right: 10%;
-  border: 5px solid black;
 }
 
 .title-blog {
@@ -218,12 +217,10 @@ footer .quick-links {
   padding-top: 20px;
   display: flex;
   justify-content: space-between;
-  border: 5px solid brown;
 }
 
 .container-blog-content-main {
   display: flex;
-  border: 5px solid greenyellow;
 }
 
 .profile-blog {
@@ -254,7 +251,6 @@ footer .quick-links {
   align-items: flex-end;
   width: 200px;
   height: 100px;
-  background-color: blueviolet;
 }
 
 .blog-content {
@@ -263,10 +259,6 @@ footer .quick-links {
 
 .blog-content p {
   margin-top: 50px;
-}
-
-.blog-trending-news {
-  border: 5px solid red;
 }
 
 .container-news-item {
