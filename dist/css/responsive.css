@@ -37,15 +37,17 @@
     width: 120px;
   }
 
-  /* Detail class - Preview and lesson section*/
-  #preview-lesson {
-    margin-top: 20px;
-  }
-
   /* 
   #cart-section table thead .class {
     width: 800px;
   } */
+  #detail-blog-section #author .overflow-hidden {
+    width: 50px;
+  }
+
+  #detail-blog-section #author .fw-semibold, #author .gray-color {
+    font-size: 15px;
+  }
 
   /* Footer */
   footer .quick-links {
@@ -53,23 +55,15 @@
     justify-content: start;
   }
 
-  /* Sigin page - Login*/
-  #form-container {
-    width: 70%;
-  }
 }
 
 /* Phone Devices = Width 400px*/
 @media only screen and (max-width: 400px) {
-  /* Button Description*/
+  /* Button Description
   #button-container {
     font-size: 0.7em;
-  }
+  } */
 
-  /* Sigin page - Login*/
-  #form-container {
-    width: 80%;
-  }
 }
 
 /* Tablet Device - Width 900px */
@@ -90,13 +84,4 @@
     justify-content: start;
   }
 
-  /* Detail class - Preview and lesson section*/
-  #lesson-container {
-    margin-top: 20px;
-  }
-
-  /* Sigin page - Login*/
-  #form-container {
-    width: 70%;
-  }
 }

@@ -1,13 +1,19 @@
 // Navbar active on scroll
 var navClass = document.querySelector('.navbar');
+let mybutton = document.getElementById("btnOnTop");
+
 
 window.onscroll = function () {
   if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
     navClass.classList.add('navbar-solid');
     navClass.classList.remove('bg-transparent');
+    mybutton.style.display = "block";
   } else {
     navClass.classList.remove('navbar-solid');
+    mybutton.style.display = "none";
+
   }
+
 }
 
 
@@ -83,3 +89,10 @@ $(document).ready(function () {
   });
 });
 
+
+
+// Scroll on top
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}

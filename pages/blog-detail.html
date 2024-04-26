@@ -97,34 +97,37 @@
   <main>
 
     <!-- Blog content -->
-    <section id="" class="" style="margin-top: 150px;">
+    <section id="detail-blog-section" class="mb-5" style="margin-top: 100px;">
       <div class="container">
         <div class="row">
 
           <!-- Kiri -->
-          <div class="col-lg-9 col-md-12">
+          <div class="col-lg-9 mb-5">
             <div class="mb-5">
               <h1 data-aos="fade-right" data-aos-duration="1000">Lorem ipsum dolor sit amet consectetur adipisicing
                 elit,sed do eiusmod. </h1>
             </div>
 
-            <div class="d-flex align-items-center justify-content-between">
+            <div class="d-flex align-items-center justify-content-between" id="author">
               <div class="d-flex align-items-center">
-                <div class="rounded-pill overflow-hidden">
-                  <img src="../dist/assets/img/avatar-7.png" alt="" width="80%" style="cursor: pointer;">
+                <div class="rounded-pill overflow-hidden me-3">
+                  <img src="/dist/assets/img/avatar-7.png" alt="" width="100%">
                 </div>
                 <div>
-                  <div class="fs-5 fw-semibold" style="cursor: pointer;">Michael Wong</div>
+                  <div class="fw-semibold">Michael Wong</div>
                   <div class="gray-color">Author</div>
                 </div>
               </div>
-              <div><i class="bi bi-calendar4-week" style="padding-right: 10px; font-size: 20px;"></i> <span
-                  class="gray-color">25 Desember 2024</span></div>
+              <div class="d-flex align-items-center"><i class="bi bi-calendar4-week d-none d-md-block"
+                  style="padding-right: 10px; font-size: 20px;"></i>
+                <span class="gray-color">25 Desember 2024</span>
+              </div>
             </div>
-            <div class="col-lg-12 col-md-6 mb-3">
-              <img src="../dist/assets/img/blog-content-1.jpg" alt="" width="100%" height="50%"
-                style="margin-top: 20px; border-radius: 4px;" data-aos="zoom-in" data-aos-easing="linear"
-                data-aos-duration="700">
+
+            <img src="/dist/assets/img/blog-content-1.jpg" alt="" width="100%"
+              style="margin-top: 20px; border-radius: 4px;" data-aos="zoom-in" data-aos-easing="linear"
+              data-aos-duration="700">
+            <article>
               <p class="gray-color b-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, quos rem
                 consequatur, at omnis ab sunt,
                 laborum cumque necessitatibus voluptas aspernatur neque! Cumque consequuntur sequi nihil repudiandae.
@@ -145,20 +148,19 @@
                 unde ut, quod ex quos earum dignissimos? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex
                 aliquam autem in voluptate! Quisquam quam minus perferendis nisi numquam earum facilis. Dolorum
                 similique et at earum officia molestias doloribus autem! </p>
-            </div>
-
+            </article>
           </div>
           <!-- Kiri -->
 
 
           <!-- Kanan -->
-          <div class="col-lg-3 col-md-12 mb-5">
+          <div class="col-lg-3 mb-5">
             <div class="row">
-
-              <div class="col-lg-12 col-md-6 mb-3">
-                <h3 style="margin-top: 110px; font-weight: bold;">Popular News</h3>
+              <div class="col">
+                <h3 class="mb-3">Popular News</h3>
               </div>
-
+            </div>
+            <div class="row">
               <div class="col-lg-12 col-md-6 mb-3" data-aos="zoom-out-down" data-aos-duration="1000">
                 <div class="card">
                   <img src="../dist/assets/img/blog-3.png" class="card-img-top" alt="..." width="100%">
@@ -299,6 +301,11 @@
     </div>
   </footer>
   <!-- Footer end -->
+
+  <!-- Button scroll on top -->
+  <button onclick="topFunction()" id="btnOnTop" title="Go to top"><iconify-icon
+      icon="mdi:arrow-top"></iconify-icon></button>
+
 
 
   <!-- Bootstrap v5.3 -->

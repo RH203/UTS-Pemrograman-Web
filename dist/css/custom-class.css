@@ -58,6 +58,9 @@
 .fs-15 {
   font-size: 15px;
 }
+.fs-17 {
+  font-size: 17px;
+}
 .fs-20 {
   font-size: 20px;
 }
@@ -129,3 +132,26 @@ header h5 .line-horizontal{
   font-weight: 300;
   color: var(--gray-text-color);
 }
+
+
+#btnOnTop {
+  display: none;
+  padding-top: 3px;
+  width: 60px;
+  height: 60px;
+  font-size: 30px;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  border: none;
+  outline: none;
+  background-color: var(--main-color);
+  color: white;
+  cursor: pointer;
+  border-radius: 100%;
+  transition: .3s;
+  box-shadow: 1px 1px 10px 1px var(--gray-text-color);
+}
+
+

@@ -39,30 +39,43 @@
 <body>
 
   <!-- Login Section Start  -->
-  <section id="login-section" data-aos="zoom-in" data-aos-easing="linear" data-aos-duration="1500">
+  <section id="login-section" data-aos="zoom-in" data-aos-easing="linear" data-aos-duration="500">
     <div class="container">
-      <div class="row">
-        <div class="col d-flex flex-column justify-content-center align-items-center vh-100 gap-5">
-          <div id="image-login">
+      <div class="row d-flex justify-content-center align-items-center vh-100">
+        <div class="col-md-4">
+          <div id="image-login" class="d-flex justify-content-center mb-3">
             <img src="/dist/assets/logo/logo.png" alt="Logo Edutech">
           </div>
-          <form action="/"
-            class=" rounded-4 shadow-lg d-flex flex-column justify-content-between px-4 py-4 gap-3 bg-bright-blue"
-            id="form-container">
-            <div class="">
-              <label for="exampleInputEmail1" class="form-label fw-medium fs-20">Email address</label>
-              <input type="email" class="form-control border-0" id="exampleInputEmail1" aria-describedby="emailHelp"
-                placeholder="example@gmail.com">
+          <div class="card bg-bright-blue rounded-4 shadow-lg p-4 border-0">
+            <div class="card-body">
+              <form action="/" class="">
+                <div class="mb-4">
+                  <label for="exampleInputEmail1" class="form-label fw-medium fs-17">Email address</label>
+                  <input type="email" class="form-control border-1" id="exampleInputEmail1" aria-describedby="emailHelp"
+                    placeholder="example@gmail.com">
+                </div>
+                <div class="mb-4">
+                  <label for="password" class="form-label fw-medium fs-17">Password</label>
+                  <input type="email" class="form-control border-1" id="password" placeholder="password">
+                </div>
+                <div class="mb-4">
+                  <div class="d-flex justify-content-between">
+                    <div class="d-flex align-items-center">
+                      <input type="checkbox" name="remember-me" class="me-2" id="remember-me">
+                      <label for="remember-me" class="gray-color fw-light">Remember me</label>
+                    </div>
+                    <div>
+                      <a href="" class="text-decoration-none gray-color">Forgot Password?</a>
+                    </div>
+                  </div>
+                </div>
+                <button type="submit" class="d-block w-100 border-0 bg-main py-2 rounded-3 fs-20 mb-3">Login</button>
+                <p class="text-center">Don't have an account? <a href="/register.html"
+                    class="main-color text-decoration-none">Register</a></p>
+              </form>
             </div>
-            <div class="mb-3">
-              <label for="exampleInputPassword1" class="form-label fw-medium fs-20">Password</label>
-              <input type="password" class="form-control border-0" id="exampleInputPassword1" placeholder="Password">
-            </div>
+          </div>
 
-            <button type="submit" class="btn bg-main py-2 rounded-3 fs-20">Login</button>
-            <p class="text-center">Don't have an account? <a href="register.html"
-                class="main-color text-decoration-none">Register</a></p>
-          </form>
         </div>
       </div>
     </div>
@@ -80,8 +93,6 @@
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   <!-- Iconify -->
   <script src="https://code.iconify.design/iconify-icon/2.1.0/iconify-icon.min.js"></script>
-  <!-- Slider -->
-  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 
   <script src="/dist/js/script.js"></script>
 
