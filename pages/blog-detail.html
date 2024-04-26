@@ -34,6 +34,7 @@
   <link rel="stylesheet" href="/dist/css/style.css">
   <link rel="stylesheet" href="/dist/css/custom-class.css">
   <link rel="stylesheet" href="/dist/css/responsive.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
 
 
 
@@ -46,7 +47,7 @@
   <nav class="navbar navbar-expand-lg bg-transparent fixed-top" style="width: 100vw;">
     <div class="container">
       <a class="navbar-brand" href="#">
-        <img src="/dist/assets/logo/logo.png" alt="">
+        <img src="../dist/assets/logo/logo.png" alt="">
       </a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -55,7 +56,7 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
           <li class="nav-item me-3">
-            <a class="nav-link active" aria-current="page" href="#">Home</a>
+            <a class="nav-link active" aria-current="page" href="/">Home</a>
           </li>
           <li class="nav-item me-3">
             <a class="nav-link" href="#">About us</a>
@@ -65,9 +66,9 @@
               Our Class
             </a>
             <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="#">UI/UX Design</a></li>
-              <li><a class="dropdown-item" href="#">Web Development</a></li>
-              <li><a class="dropdown-item" href="#">Data Science</a></li>
+              <li><a class="dropdown-item" href="../pages/detail-class.html">UI/UX Design</a></li>
+              <li><a class="dropdown-item" href="../pages/detail-class.html">Web Development</a></li>
+              <li><a class="dropdown-item" href="../pages/detail-class.html">Data Science</a></li>
             </ul>
           </li>
           <li class="nav-item me-3">
@@ -77,6 +78,11 @@
             <a class="nav-link" href="">Contact</a>
           </li>
         </ul>
+        <div class="me-3">
+          <a href="cart.html" class="text-decoration-none">
+            <iconify-icon icon="tdesign:cart" class="main-color fs-5"></iconify-icon>
+          </a>
+        </div>
         <form class="d-flex" role="search">
           <div class="position-relative">
             <iconify-icon icon="ion:search-outline" class="position-absolute icon-search"></iconify-icon>
@@ -95,114 +101,147 @@
   <main>
 
     <!-- Blog content -->
-    <section id="title-blog" class="mt-5 pt-5">
-      <div class="title-blog">
-        <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit,sed do eiusmod. </h1>
+    <section id="" class="" style="margin-top: 150px;">
+      <div class="container">
+        <div class="row">
+
+          <!-- Kiri -->
+          <div class="col-lg-9 col-md-12">
+            <div class="mb-5">
+              <h1 data-aos="fade-right" data-aos-duration="1000">Lorem ipsum dolor sit amet consectetur adipisicing elit,sed do eiusmod. </h1>
+            </div>
+
+            <div class="d-flex align-items-center justify-content-between">
+              <div class="d-flex align-items-center">
+                <div class="rounded-pill overflow-hidden">
+                  <img src="../dist/assets/img/avatar-7.png" alt="" width="80%" style="cursor: pointer;">
+                </div>
+                <div>
+                  <div class="fs-5 fw-semibold" style="cursor: pointer;">Michael Wong</div>
+                  <div class="gray-color">Writer</div>
+                </div>
+              </div>
+              <div><i class="bi bi-calendar4-week" style="padding-right: 10px; font-size: 20px;"></i> <span
+                  class="gray-color">25 Desember 2024</span></div>
+            </div>
+            <div class="col-lg-12 col-md-6 mb-3">
+              <img src="../dist/assets/img/blog-content-1.jpg" alt="" width="100%" height="50%"
+                style="margin-top: 20px; border-radius: 4px;" data-aos="zoom-in" data-aos-easing="linear" data-aos-duration="700">
+              <p class="gray-color b-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, quos rem
+                consequatur, at omnis ab sunt,
+                laborum cumque necessitatibus voluptas aspernatur neque! Cumque consequuntur sequi nihil repudiandae.
+                Explicabo, soluta illo! Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi illo laborum
+                earum Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt, est, expedita possimus suscipit
+                magnam nesciunt facilis unde sapiente fuga atque modi saepe alias incidunt odio vel veniam esse.
+                Assumenda, facere! nulla rem dolorum quam saepe consequatur unde aperiam vel corrupti, excepturi
+                doloremque, corporis eaque, amet quia sapiente nesciunt. </p>
+              <p class="gray-color b-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, quos rem
+                consequatur, at omnis ab sunt,
+                laborum cumque necessitatibus voluptas aspernatur neque! Cumque consequuntur sequi nihil repudiandae.
+                Explicabo, soluta illo!</p>
+              <p class="gray-color b-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, quos rem
+                consequatur, at omnis ab sunt,
+                laborum cumque necessitatibus voluptas aspernatur neque! Cumque consequuntur sequi nihil repudiandae.
+                Explicabo, soluta illo! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, enim. Maxime
+                neque eveniet distinctio, maiores incidunt sunt mollitia, voluptatibus eaque aliquid perferendis soluta
+                unde ut, quod ex quos earum dignissimos? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex
+                aliquam autem in voluptate! Quisquam quam minus perferendis nisi numquam earum facilis. Dolorum
+                similique et at earum officia molestias doloribus autem! </p>
+            </div>
+
+          </div>
+          <!-- Kiri -->
+
+
+          <!-- Kanan -->
+          <div class="col-lg-3 col-md-12 mb-5">
+            <div class="row">
+
+              <div class="col-lg-12 col-md-6 mb-3">
+                <h3 style="margin-top: 110px; font-weight: bold;">Popular News</h3>
+              </div>
+
+              <div class="col-lg-12 col-md-6 mb-3" data-aos="zoom-out-down" data-aos-duration="1000">
+                <div class="card">
+                  <img src="../dist/assets/img/blog-3.png" class="card-img-top" alt="..." width="100%">
+                  <div class="card-body">
+                    <p class="gray-color"><i class="bi bi-calendar4-week"></i>25-04-2024</p>
+                    <h5 class="card-title">News Title...</h5>
+                    <p class="card-text">Some quick example text to build on the News Title... and make up the bulk of
+                      the card's content.</p>
+                    <h5 class="gray-color b-bot">Read more <i class="bi bi-arrow-right"></i></h5>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-12 col-md-6 mb-3" data-aos="zoom-out-down" data-aos-duration="1000">
+                <div class="card">
+                  <img src="../dist/assets/img/blog-3.png" class="card-img-top" alt="..." width="100%">
+                  <div class="card-body">
+                    <p class="gray-color"><i class="bi bi-calendar4-week"></i>25-04-2024</p>
+                    <h5 class="card-title">News Title...</h5>
+                    <p class="card-text">Some quick example text to build on the News Title... and make up the bulk of
+                      the card's content.</p>
+                    <h5 class="gray-color b-bot">Read more <i class="bi bi-arrow-right"></i></h5>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-12 col-md-6 mb-3">
+                <div class="card">
+                  <img src="../dist/assets/img/blog-3.png" class="card-img-top" alt="..." width="100%">
+                  <div class="card-body">
+                    <p class="gray-color"><i class="bi bi-calendar4-week"></i>25-04-2024</p>
+                    <h5 class="card-title">News Title...</h5>
+                    <p class="card-text">Some quick example text to build on the News Title... and make up the bulk of
+                      the card's content.</p>
+                    <h5 class="gray-color b-bot">Read more <i class="bi bi-arrow-right"></i></h5>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-12 col-md-6 mb-3">
+                <div class="card">
+                  <img src="../dist/assets/img/blog-3.png" class="card-img-top" alt="..." width="100%">
+                  <div class="card-body">
+                    <p class="gray-color"><i class="bi bi-calendar4-week"></i>25-04-2024</p>
+                    <h5 class="card-title">News Title...</h5>
+                    <p class="card-text">Some quick example text to build on the News Title... and make up the bulk of
+                      the card's content.</p>
+                    <h5 class="gray-color b-bot">Read more <i class="bi bi-arrow-right"></i></h5>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div> 
+
+          <!-- Kanan -->
+
+        </div>
       </div>
-      <div class="container-blog-content">
-        <div class="profile-blog">
-          <div class="profile-blog-img">
-            <img src="/dist/assets/img/avatar-7.png" alt="" width="70px" height="70px">
+    </section>
+
+    <!-- Blog content end -->
+
+    <!-- Subscribe start -->
+    <section id="subscribe-section" class="bg-main py-5">
+      <div class="container">
+        <div class="row d-flex align-items-center">
+          <div class="col-lg-8 mb-4">
+            <h1 class="fw-regular">Join the world largest <br>
+              online learning platform</h1>
           </div>
-          <div class="profile-blog-name">
-            <h5>Michael Wong</h5>
-            <h6 class="fw-light fs-5 gray-color">Writer</h6>
+          <div class="col-lg-4 mb-4">
+            <form action="" class="d-block position-relative">
+              <iconify-icon icon="material-symbols-light:mail-outline"
+                class="position-absolute fs-3 text-dark"></iconify-icon>
+              <input type="email" name="" id="" class="form-control rounded-4" placeholder="example@gmail.com">
+              <button type="submit" class="btn-subscribe fw-semibold rounded-3 position-absolute">Join
+                Now</button>
+            </form>
           </div>
-        </div>
-        <div class="calendar-blog">
-          <img src="" alt=""> //////
-          <p class="fw-light fs-5 gray-color">24 April 2024</p>
         </div>
       </div>
-
-      <section id="" class="" style="margin-top: 150px;">
-        <div class="container">
-          <div class="row">
-
-            <!-- Kiri -->
-            <div class="col-lg-9 col-md-12">
-              <div class="mb-5">
-                <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit,sed do eiusmod. </h1>
-              </div>
-
-              <div class="d-flex align-items-center justify-content-between">
-                <div class="d-flex align-items-center">
-                  <div class="me-3 rounded-pill overflow-hidden">
-                    <img src="../dist/assets/img/avatar-7.png" alt="" width="100%">
-                  </div>
-                  <div>
-                    <div class="fs-4 fw-semibold">Michael Wong</div>
-                    <div class="gray-color">Writer</div>
-                  </div>
-                </div>
-
-                <div>25 Desember 2024</div>
-              </div>
-            </div>
-            <!-- Kiri -->
-
-
-            <!-- Kanan -->
-            <div class="col-lg-3 col-md-12">
-
-              <div class="row">
-                <div class="col-lg-12 col-md-6 mb-3">
-                  <div class="card">
-                    <img src="../dist/assets/img/blog-content-1.jpg" class="card-img-top" alt="..." width="100%">
-                    <div class="card-body">
-                      <h5 class="card-title">Card title</h5>
-                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                        the
-                        card's content.</p>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-lg-12 col-md-6 mb-3">
-                  <div class="card">
-                    <img src="../dist/assets/img/blog-content-1.jpg" class="card-img-top" alt="..." width="100%">
-                    <div class="card-body">
-                      <h5 class="card-title">Card title</h5>
-                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                        the
-                        card's content.</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-
-
-            </div>
-            <!-- Kanan -->
-
-          </div>
-        </div>
-      </section>
-
-      <!-- Blog content end -->
-
-
-
-      <!-- Subscribe start -->
-      <section id="subscribe-section" class="bg-main py-5">
-        <div class="container">
-          <div class="row d-flex align-items-center">
-            <div class="col-lg-8 mb-4">
-              <h1 class="fw-regular">Join the world largest <br>
-                online learning platform</h1>
-            </div>
-            <div class="col-lg-4 mb-4">
-              <form action="" class="d-block position-relative">
-                <iconify-icon icon="material-symbols-light:mail-outline"
-                  class="position-absolute fs-3 text-dark"></iconify-icon>
-                <input type="email" name="" id="" class="form-control rounded-4" placeholder="example@gmail.com">
-                <button type="submit" class="btn-subscribe fw-semibold rounded-3 position-absolute">Join Now</button>
-              </form>
-            </div>
-          </div>
-        </div>
-      </section>
-      <!-- Subscribe content -->
+    </section>
+    <!-- Subscribe content -->
 
 
   </main>
