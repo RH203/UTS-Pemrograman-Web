@@ -30,10 +30,13 @@ pages
 │   └── template.html
 ├── blog.html
 ├── class.html
-├── detail-blog.html
+├── cart.html
+├── blog-detail.html
 └── detail-class.html
 
 index.html
+login.html
+register.html
 
 ```
 

@@ -157,6 +157,10 @@ footer .quick-links {
   justify-content: end;
 }
 
+footer .logo-footer {
+  width: 80%;
+}
+
 /* Animation */
 
 @keyframes animasiCertifiedInstructor {
