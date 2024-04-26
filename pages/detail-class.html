@@ -2,11 +2,21 @@
 <html lang="en">
 
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="title" content="EduTech">
+  <meta name="description"
+    content="EduTech menyediakan sebuah kelas atau pelatihan secara online dan bisa di akses dimanapun dan kapanpun.">
+  <meta name="keywords" content="online course, technology, design, UI/UX, Web Development, Data Science">
+  <meta name="author" content="Irfan Yasin, Mario Achmad Taufik, Raihan Firdaus, Amore Purba">
+  <meta name="robots" content="index, follow">
+  <!-- Metadata untuk SEO (opsional) -->
+  <meta name="robots" content="index, follow">
+  <meta name="googlebot" content="index, follow">
+  <meta name="robots" content="noarchive">
+  <meta name="robots" content="nosnippet">
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="robots" content="max-snippet:-1, max-image-preview:large, max-video-preview:-1">
 
-  <title>Class - Detail</title>
-
+  <title>EduTech - Detail Class</title>
   <!-- Bootstrap v5.3 -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
@@ -14,10 +24,6 @@
   <link rel="icon" href="/dist/assets/logo/logo-fav.ico" type="image/x-icon">
   <!-- Animation -->
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-  <!-- Slick Slider -->
-  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
-  <link rel="stylesheet" type="text/css"
-    href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
   <!-- CSS -->
   <link rel="stylesheet" href="/dist/css/style.css">
   <link rel="stylesheet" href="/dist/css/custom-class.css">
@@ -30,8 +36,8 @@
   <!-- Navbar start -->
   <nav class="navbar navbar-expand-lg bg-transparent fixed-top" style="width: 100vw;">
     <div class="container">
-      <a class="navbar-brand" href="#">
-        <img src="../dist/assets/logo/logo.png" alt="">
+      <a class="navbar-brand" href="/">
+        <img src="/dist/assets/logo/logo.png" alt="">
       </a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -43,27 +49,27 @@
             <a class="nav-link active" aria-current="page" href="/">Home</a>
           </li>
           <li class="nav-item me-3">
-            <a class="nav-link" href="#">About us</a>
+            <a class="nav-link" href="/">About us</a>
           </li>
           <li class="nav-item me-3 dropdown">
             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
               Our Class
             </a>
             <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="pages/detail-class.html">UI/UX Design</a></li>
-              <li><a class="dropdown-item" href="pages/detail-class.html">Web Development</a></li>
-              <li><a class="dropdown-item" href="pages/detail-class.html">Data Science</a></li>
+              <li><a class="dropdown-item" href="/pages/class.html">UI/UX Design</a></li>
+              <li><a class="dropdown-item" href="/pages/class.html">Web Development</a></li>
+              <li><a class="dropdown-item" href="/pages/class.html">Data Science</a></li>
             </ul>
           </li>
           <li class="nav-item me-3">
-            <a class="nav-link" href="">Blog</a>
+            <a class="nav-link" href="/pages/blog.html">Blog</a>
           </li>
           <li class="nav-item me-3">
-            <a class="nav-link" href="">Contact</a>
+            <a class="nav-link" href="/login.html">Login</a>
           </li>
         </ul>
         <div class="me-3">
-          <a href="cart.html" class="text-decoration-none">
+          <a href="/pages/cart.html" class="text-decoration-none">
             <iconify-icon icon="tdesign:cart" class="main-color fs-5"></iconify-icon>
           </a>
         </div>
@@ -143,7 +149,7 @@
 
       <div class="container" data-aos="fade-left" data-aos-easing="linear" data-aos-duration="1500">
         <div class="row d-flex justify-content-center align-items-center">
-          <div class="col-lg-3 col-md-6 mb-5">
+          <div class="col-lg-3 col-6 mb-5">
             <div class="d-flex flex-column align-items-center gap-1">
               <img src="/dist/assets/icon/member-description.png" alt="">
               <div class="d-flex flex-column align-items-center">
@@ -153,7 +159,7 @@
 
             </div>
           </div>
-          <div class="col-lg-3 col-md-6 mb-5">
+          <div class="col-lg-3 col-6 mb-5">
             <div class="d-flex flex-column align-items-center gap-1">
               <img src="/dist/assets/icon/level-description.png" alt="">
               <div class="d-flex flex-column align-items-center">
@@ -163,7 +169,7 @@
 
             </div>
           </div>
-          <div class="col-lg-3 col-md-6 mb-5">
+          <div class="col-lg-3 col-6 mb-5">
             <div class="d-flex flex-column align-items-center gap-1">
               <iconify-icon icon="ph:clock-bold" width="4em" height="4em" style="color: #a4074d"></iconify-icon>
               <div class="d-flex flex-column align-items-center">
@@ -172,7 +178,7 @@
               </div>
             </div>
           </div>
-          <div class="col-lg-3 col-md-6 mb-5">
+          <div class="col-lg-3 col-6 mb-5">
             <div class="d-flex flex-column align-items-center gap-1">
               <img src="/dist/assets/icon/certificate-description.png" alt="">
               <div class="d-flex flex-column align-items-center">
@@ -186,284 +192,346 @@
       <!-- Stat End -->
 
 
-      <!-- Preview and Lesson Start -->
-      <div class="container" data-aos="zoom-in" data-aos-easing="linear" data-aos-duration="1600">
-        <div class="row">
-          <div class="col-lg-7">
-            <header>
-              <h6 class="fw-semibold">Preview Class</h6>
-            </header>
-            <iframe width="100%" height="93%" src="https://www.youtube.com/embed/0glckHsLL7U"
-              title="YouTube video player" frameborder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowfullscreen></iframe>
-          </div>
-          <div class="col-lg-5" id="lesson-container">
-            <header>
-              <h6 class="fw-semibold">Lesson</h6>
-            </header>
-            <div class="bg-grey-color rounded d-flex align-items-center justify-content-between mb-2">
-              <div class="d-flex align-items-center">
-                <button class="btn text-center pt-2"><iconify-icon icon="octicon:play-16" width="1.6em" height="1.6em"
-                    style="color: #7e7c7d"></iconify-icon></button>
-                <p class="pt-2">Introduction Figma</p>
-              </div>
-              <p class="fw-light pe-3 pt-2 gray-color">3 min</p>
-            </div>
-            <div class="bg-grey-color rounded d-flex align-items-center justify-content-between mb-2">
-              <div class="d-flex align-items-center">
-                <button class="btn text-center pt-2"><iconify-icon icon="octicon:play-16" width="1.6em" height="1.6em"
-                    style="color: #7e7c7d"></iconify-icon></button>
-                <p class="pt-2">Introduction Figma</p>
-              </div>
-              <p class="fw-light pe-3 pt-2 gray-color">3 min</p>
-            </div>
-            <div class="bg-grey-color rounded d-flex align-items-center justify-content-between my-2">
-              <div class="d-flex align-items-center">
-                <button class="btn text-center pt-2"><iconify-icon icon="octicon:play-16" width="1.6em" height="1.6em"
-                    style="color: #7e7c7d"></iconify-icon></button>
-                <p class="pt-2">Introduction Figma</p>
-              </div>
-              <p class="fw-light pe-3 pt-2 gray-color">3 min</p>
-            </div>
-            <div class="bg-grey-color rounded d-flex align-items-center justify-content-between my-2">
-              <div class="d-flex align-items-center">
-                <button class="btn text-center pt-2"><iconify-icon icon="octicon:play-16" width="1.6em" height="1.6em"
-                    style="color: #7e7c7d"></iconify-icon></button>
-                <p class="pt-2">Introduction Figma</p>
-              </div>
-              <p class="fw-light pe-3 pt-2 gray-color">3 min</p>
-            </div>
-            <div class="bg-grey-color rounded d-flex align-items-center justify-content-between my-2">
-              <div class="d-flex align-items-center">
-                <button class="btn text-center pt-2"><iconify-icon icon="octicon:play-16" width="1.6em" height="1.6em"
-                    style="color: #7e7c7d"></iconify-icon></button>
-                <p class="pt-2">Introduction Figma</p>
-              </div>
-              <p class="fw-light pe-3 pt-2 gray-color">3 min</p>
-            </div>
-            <a href=""
-              class="container-fluid text-center fs-5 d-inline-block text-decoration-none py-3 bg-main rounded-3 me-3 fw-semibold">Join
-              Class</a>
-          </div>
-        </div>
-      </div>
-      <!-- Preview and Lesson End -->
-
-      <!-- Review Start -->
-      <div class="container my-3">
-        <div class="row row-gap-2">
-
-          <header>
-            <h6 class="fw-semibold">Review</h6>
-          </header>
-
-          <div class="col">
-
-            <div class="row-lg-3 mx-3 my-5" data-aos="flip-left" data-aos-easing="ease-out-cubic"
-              data-aos-duration="2000">
-              <div id="bio" class="d-flex align-items-center gap-3">
-                <img src="/dist/assets/img/avatar-7.png" alt="" width="20%">
-                <div class="pt-2">
-                  <header>
-                    <h6 class="gray-color mb-0">Michael Wong </h6>
-                  </header>
-                  <p class="gray-color fs-13 mb-1">UI/UX Design Student</p>
-                  <div class="d-flex">
-                    <iconify-icon icon="material-symbols:star-rounded" width="1.2em" height="1.2em"
-                      style="color: #FFD700"></iconify-icon>
-                    <p class="gray-color fs-15 fw-bold">4.9</p>
-                  </div>
-                </div>
-              </div>
-              <p class="fw-light">Empower yourself with the knowledge and skills gained through online education!
-                Empower yourself with
-                the knowledge and skills gained through online education!</p>
-            </div>
-
-            <div class="row-lg-3 mx-3 my-5" data-aos="flip-left" data-aos-easing="ease-out-cubic"
-              data-aos-duration="2000">
-              <div id="bio" class="d-flex align-items-center gap-3">
-                <img src="/dist/assets/img/avatar-7.png" alt="" width="20%">
-                <div class="pt-2">
-                  <header>
-                    <h6 class="gray-color mb-0">Michael Wong </h6>
-                  </header>
-                  <p class="gray-color fs-13 mb-1">UI/UX Design Student</p>
-                  <div class="d-flex">
-                    <iconify-icon icon="material-symbols:star-rounded" width="1.2em" height="1.2em"
-                      style="color: #FFD700"></iconify-icon>
-                    <p class="gray-color fs-15 fw-bold">4.9</p>
-                  </div>
-                </div>
-              </div>
-              <p class="fw-light">Empower yourself with the knowledge and skills gained through online education!
-                Empower yourself with
-                the knowledge and skills gained through online education!</p>
-            </div>
-
-            <div class="row-lg-3 mx-3 my-5" data-aos="flip-left" data-aos-easing="ease-out-cubic"
-              data-aos-duration="2000">
-              <div id="bio" class="d-flex align-items-center gap-3">
-                <img src="/dist/assets/img/avatar-7.png" alt="" width="20%">
-                <div class="pt-2">
-                  <header>
-                    <h6 class="gray-color mb-0">Michael Wong </h6>
-                  </header>
-                  <p class="gray-color fs-13 mb-1">UI/UX Design Student</p>
-                  <div class="d-flex">
-                    <iconify-icon icon="material-symbols:star-rounded" width="1.2em" height="1.2em"
-                      style="color: #FFD700"></iconify-icon>
-                    <p class="gray-color fs-15 fw-bold">4.9</p>
-                  </div>
-                </div>
-              </div>
-              <p class="fw-light">Empower yourself with the knowledge and skills gained through online education!
-                Empower yourself with
-                the knowledge and skills gained through online education!</p>
-            </div>
-
-          </div>
-
-          <div class="col">
-
-            <div class="row-lg-3 mx-3 my-5" data-aos="flip-left" data-aos-easing="ease-out-cubic"
-              data-aos-duration="2000">
-              <div id="bio" class="d-flex align-items-center gap-3">
-                <img src="/dist/assets/img/avatar-8.png" alt="" width="20%">
-                <div class="pt-2">
-                  <header>
-                    <h6 class="gray-color mb-0">Avril Song</h6>
-                  </header>
-                  <p class="gray-color fs-13 mb-1">Web Development Student</p>
-                  <div class="d-flex">
-                    <iconify-icon icon="material-symbols:star-rounded" width="1.2em" height="1.2em"
-                      style="color: #FFD700"></iconify-icon>
-                    <p class="gray-color fs-15 fw-bold">4.9</p>
-                  </div>
-                </div>
-              </div>
-              <p class="fw-light">Empower yourself with the knowledge and skills gained through online education!
-                Empower yourself with
-                the knowledge and skills gained through online education!</p>
-            </div>
-
-            <div class="row-lg-3 mx-3 my-5" data-aos="flip-left" data-aos-easing="ease-out-cubic"
-              data-aos-duration="2000">
-              <div id="bio" class="d-flex align-items-center gap-3">
-                <img src="/dist/assets/img/avatar-8.png" alt="" width="20%">
-                <div class="pt-2">
-                  <header>
-                    <h6 class="gray-color mb-0">Avril Song</h6>
-                  </header>
-                  <p class="gray-color fs-13 mb-1">Web Development Student</p>
-                  <div class="d-flex">
-                    <iconify-icon icon="material-symbols:star-rounded" width="1.2em" height="1.2em"
-                      style="color: #FFD700"></iconify-icon>
-                    <p class="gray-color fs-15 fw-bold">4.9</p>
-                  </div>
-                </div>
-              </div>
-              <p class="fw-light">Empower yourself with the knowledge and skills gained through online education!
-                Empower yourself with
-                the knowledge and skills gained through online education!</p>
-            </div>
-
-            <div class="row-lg-3 mx-3 my-5" data-aos="flip-left" data-aos-easing="ease-out-cubic"
-              data-aos-duration="2000">
-              <div id="bio" class="d-flex align-items-center gap-3">
-                <img src="/dist/assets/img/avatar-8.png" alt="" width="20%">
-                <div class="pt-2">
-                  <header>
-                    <h6 class="gray-color mb-0">Avril Song </h6>
-                  </header>
-                  <p class="gray-color fs-13 mb-1">Web Development Student</p>
-                  <div class="d-flex">
-                    <iconify-icon icon="material-symbols:star-rounded" width="1.2em" height="1.2em"
-                      style="color: #FFD700"></iconify-icon>
-                    <p class="gray-color fs-15 fw-bold">4.9</p>
-                  </div>
-                </div>
-              </div>
-              <p class="fw-light">Empower yourself with the knowledge and skills gained through online education!
-                Empower yourself with
-                the knowledge and skills gained through online education!</p>
-            </div>
-          </div>
-
-
-          <div class="col">
-            <div class="row-lg-3 mx-3 my-5" data-aos="flip-left" data-aos-easing="ease-out-cubic"
-              data-aos-duration="2000">
-              <div id="bio" class="d-flex align-items-center gap-3">
-                <img src="/dist/assets/img/avatar-9.png" alt="" width="20%">
-                <div class="pt-2">
-                  <header>
-                    <h6 class="gray-color mb-0">Jeane Wood</h6>
-                  </header>
-                  <p class="gray-color fs-13 mb-1">Data Science Student</p>
-                  <div class="d-flex">
-                    <iconify-icon icon="material-symbols:star-rounded" width="1.2em" height="1.2em"
-                      style="color: #FFD700"></iconify-icon>
-                    <p class="gray-color fs-15 fw-bold">4.9</p>
-                  </div>
-                </div>
-              </div>
-              <p class="fw-light">Empower yourself with the knowledge and skills gained through online education!
-                Empower yourself with
-                the knowledge and skills gained through online education!</p>
-            </div>
-
-            <div class="row-lg-3 mx-3 my-5" data-aos="flip-left" data-aos-easing="ease-out-cubic"
-              data-aos-duration="2000">
-              <div id="bio" class="d-flex align-items-center gap-3">
-                <img src="/dist/assets/img/avatar-9.png" alt="" width="20%">
-                <div class="pt-2">
-                  <header>
-                    <h6 class="gray-color mb-0">Jeane Wood</h6>
-                  </header>
-                  <p class="gray-color fs-13 mb-1">Data Science Student</p>
-                  <div class="d-flex">
-                    <iconify-icon icon="material-symbols:star-rounded" width="1.2em" height="1.2em"
-                      style="color: #FFD700"></iconify-icon>
-                    <p class="gray-color fs-15 fw-bold">4.9</p>
-                  </div>
-                </div>
-              </div>
-              <p class="fw-light">Empower yourself with the knowledge and skills gained through online education!
-                Empower yourself with
-                the knowledge and skills gained through online education!</p>
-            </div>
-
-            <div class="row-lg-3 mx-3 my-5" data-aos="flip-left" data-aos-easing="ease-out-cubic"
-              data-aos-duration="2000">
-              <div id="bio" class="d-flex align-items-center gap-3">
-                <img src="/dist/assets/img/avatar-9.png" alt="" width="20%">
-                <div class="pt-2">
-                  <header>
-                    <h6 class="gray-color mb-0">Jeane Wood</h6>
-                  </header>
-                  <p class="gray-color fs-13 mb-1">Data Science Student</p>
-                  <div class="d-flex">
-                    <iconify-icon icon="material-symbols:star-rounded" width="1.2em" height="1.2em"
-                      style="color: #FFD700"></iconify-icon>
-                    <p class="gray-color fs-15 fw-bold">4.9</p>
-                  </div>
-                </div>
-              </div>
-              <p class="fw-light">Empower yourself with the knowledge and skills gained through online education!
-                Empower yourself with
-                the knowledge and skills gained through online education!</p>
-            </div>
-          </div>
-
-        </div>
-
-      </div>
-      <!-- Review End -->
-
     </section>
     <!-- Description End  -->
+
+
+
+
+
+    <!-- Preview and Lesson Start -->
+    <section id="preview-lesson" class="my-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-7 mb-3">
+            <div class="rounded-4 overflow-hidden">
+              <iframe width="100%" height="500" src="https://www.youtube.com/embed/k7cbBb2Ju5E?si=YOdP_CVooNeYYFHo"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+          </div>
+          <div class="col-lg-5 mb-3">
+            <div class="bg-white-color p-3 rounded-4">
+              <header class="mb-4">
+                <h4>Lesson</h4>
+              </header>
+              <div style="height: 340px;" class="overflow-y-scroll">
+                <a href="" class="d-block text-decoration-none" style="color: #7e7c7d">
+                  <div class="bg-lightgray-color rounded d-flex align-items-center justify-content-between mb-2">
+                    <div class="d-flex align-items-center">
+                      <div class="btn text-center pt-2">
+
+                        <iconify-icon icon="octicon:play-16" width="1.6em" height="1.6em"></iconify-icon>
+                      </div>
+                      <p class="pt-2">Introduction Figma</p>
+                    </div>
+                    <p class="fw-light pe-3 pt-2 gray-color d-flex align-items-center">
+                      3 min
+                    </p>
+                  </div>
+                </a>
+                <a href="" class="d-block text-decoration-none" style="color: #7e7c7d">
+                  <div class="bg-lightgray-color rounded d-flex align-items-center justify-content-between mb-2">
+                    <div class="d-flex align-items-center">
+                      <div class="btn text-center pt-2"><iconify-icon icon="octicon:play-16" width="1.6em"
+                          height="1.6em"></iconify-icon></div>
+                      <p class="pt-2">Create the first design project</p>
+                    </div>
+                    <p class="fw-light pe-3 pt-2 gray-color d-flex align-items-center">
+                      <iconify-icon icon="streamline:padlock-square-1" class="me-3"></iconify-icon>
+                      5 min
+                    </p>
+                  </div>
+                </a>
+                <a href="" class="d-block text-decoration-none" style="color: #7e7c7d">
+                  <div class="bg-lightgray-color rounded d-flex align-items-center justify-content-between mb-2">
+                    <div class="d-flex align-items-center">
+                      <div class="btn text-center pt-2"><iconify-icon icon="octicon:play-16" width="1.6em"
+                          height="1.6em"></iconify-icon></div>
+                      <p class="pt-2">Layer and Group</p>
+                    </div>
+                    <p class="fw-light pe-3 pt-2 gray-color d-flex align-items-center">
+                      <iconify-icon icon="streamline:padlock-square-1" class="me-3"></iconify-icon>
+                      4 min
+                    </p>
+                  </div>
+                </a>
+                <a href="" class="d-block text-decoration-none" style="color: #7e7c7d">
+                  <div class="bg-lightgray-color rounded d-flex align-items-center justify-content-between mb-2">
+                    <div class="d-flex align-items-center">
+                      <div class="btn text-center pt-2"><iconify-icon icon="octicon:play-16" width="1.6em"
+                          height="1.6em"></iconify-icon></div>
+                      <p class="pt-2">UI component with basic shape</p>
+                    </div>
+                    <p class="fw-light pe-3 pt-2 gray-color d-flex align-items-center">
+                      <iconify-icon icon="streamline:padlock-square-1" class="me-3"></iconify-icon>
+                      8 min
+                    </p>
+                  </div>
+                </a>
+                <a href="" class="d-block text-decoration-none" style="color: #7e7c7d">
+                  <div class="bg-lightgray-color rounded d-flex align-items-center justify-content-between mb-2">
+                    <div class="d-flex align-items-center">
+                      <div class="btn text-center pt-2"><iconify-icon icon="octicon:play-16" width="1.6em"
+                          height="1.6em"></iconify-icon></div>
+                      <p class="pt-2">Text Properties</p>
+                    </div>
+                    <p class="fw-light pe-3 pt-2 gray-color d-flex align-items-center">
+                      <iconify-icon icon="streamline:padlock-square-1" class="me-3"></iconify-icon>
+                      3 min
+                    </p>
+                  </div>
+                </a>
+                <a href="" class="d-block text-decoration-none" style="color: #7e7c7d">
+                  <div class="bg-lightgray-color rounded d-flex align-items-center justify-content-between mb-2">
+                    <div class="d-flex align-items-center">
+                      <div class="btn text-center pt-2"><iconify-icon icon="octicon:play-16" width="1.6em"
+                          height="1.6em"></iconify-icon></div>
+                      <p class="pt-2">Use of color schemes</p>
+                    </div>
+                    <p class="fw-light pe-3 pt-2 gray-color d-flex align-items-center">
+                      <iconify-icon icon="streamline:padlock-square-1" class="me-3"></iconify-icon>
+                      7 min
+                    </p>
+                  </div>
+                </a>
+                <a href="" class="d-block text-decoration-none" style="color: #7e7c7d">
+                  <div class="bg-lightgray-color rounded d-flex align-items-center justify-content-between mb-2">
+                    <div class="d-flex align-items-center">
+                      <div class="btn text-center pt-2"><iconify-icon icon="octicon:play-16" width="1.6em"
+                          height="1.6em"></iconify-icon></div>
+                      <p class="pt-2">Pen tool for cart design</p>
+                    </div>
+                    <p class="fw-light pe-3 pt-2 gray-color d-flex align-items-center">
+                      <iconify-icon icon="streamline:padlock-square-1" class="me-3"></iconify-icon>
+                      5 min
+                    </p>
+                  </div>
+                </a>
+                <a href="" class="d-block text-decoration-none" style="color: #7e7c7d">
+                  <div class="bg-lightgray-color rounded d-flex align-items-center justify-content-between mb-2">
+                    <div class="d-flex align-items-center">
+                      <div class="btn text-center pt-2"><iconify-icon icon="octicon:play-16" width="1.6em"
+                          height="1.6em"></iconify-icon></div>
+                      <p class="pt-2">Image UI card design</p>
+                    </div>
+                    <p class="fw-light pe-3 pt-2 gray-color d-flex align-items-center">
+                      <iconify-icon icon="streamline:padlock-square-1" class="me-3"></iconify-icon>
+                      9 min
+                    </p>
+                  </div>
+                </a>
+                <a href="" class="d-block text-decoration-none" style="color: #7e7c7d">
+                  <div class="bg-lightgray-color rounded d-flex align-items-center justify-content-between mb-2">
+                    <div class="d-flex align-items-center">
+                      <div class="btn text-center pt-2"><iconify-icon icon="octicon:play-16" width="1.6em"
+                          height="1.6em"></iconify-icon></div>
+                      <p class="pt-2">Create Grid</p>
+                    </div>
+                    <p class="fw-light pe-3 pt-2 gray-color d-flex align-items-center">
+                      <iconify-icon icon="streamline:padlock-square-1" class="me-3"></iconify-icon>
+                      4 min
+                    </p>
+                  </div>
+                </a>
+                <a href="" class="d-block text-decoration-none" style="color: #7e7c7d">
+                  <div class="bg-lightgray-color rounded d-flex align-items-center justify-content-between mb-2">
+                    <div class="d-flex align-items-center">
+                      <div class="btn text-center pt-2"><iconify-icon icon="octicon:play-16" width="1.6em"
+                          height="1.6em"></iconify-icon></div>
+                      <p class="pt-2">Auto Layout</p>
+                    </div>
+                    <p class="fw-light pe-3 pt-2 gray-color d-flex align-items-center">
+                      <iconify-icon icon="streamline:padlock-square-1" class="me-3"></iconify-icon>
+                      10 min
+                    </p>
+                  </div>
+                </a>
+              </div>
+              <div class="mt-3">
+                <a href="" class="d-block bg-main text-decoration-none fs-5 fw-bold rounded-3 py-3 text-center">
+                  Join Class
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Preview and Lesson end -->
+
+
+
+    <!-- Review start -->
+    <section id="review-section" class="mb-5">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <header class="mb-3">
+              <h4>Student Reviews</h4>
+            </header>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-4 col-md-6 mb-3">
+            <div class="card rounded-4 p-3 border-0">
+              <div class="card-body">
+                <div class="d-flex align-items-center">
+                  <div class="rounded-pill overflow-hidden me-4">
+                    <img src="/dist/assets/img/avatar-7.png" class="rounded-pill" alt="" width="80px" height="80px">
+                  </div>
+                  <div class="dark-gray-color">
+                    <h5>Michael Wong</h5>
+                    <div>UI/UX Design Student</div>
+                    <div>
+                      <iconify-icon icon="ic:round-star" class="text-warning"></iconify-icon> &nbsp;
+                      <span class="fw-semibold fs-5">4.9</span>
+                    </div>
+                  </div>
+
+                </div>
+
+                <p class="dark-gray-color mt-4">Empower yourself with the knowledge and skills gained through online
+                  education! Empower yourself with
+                  the knowledge and skills gained through online education!</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 mb-3">
+            <div class="card rounded-4 p-3 border-0">
+              <div class="card-body">
+                <div class="d-flex align-items-center">
+                  <div class="rounded-pill overflow-hidden me-4">
+                    <img src="/dist/assets/img/avatar-7.png" class="rounded-pill" alt="" width="80px" height="80px">
+                  </div>
+                  <div class="dark-gray-color">
+                    <h5>Michael Wong</h5>
+                    <div>UI/UX Design Student</div>
+                    <div>
+                      <iconify-icon icon="ic:round-star" class="text-warning"></iconify-icon> &nbsp;
+                      <span class="fw-semibold fs-5">4.9</span>
+                    </div>
+                  </div>
+
+                </div>
+
+                <p class="dark-gray-color mt-4">Empower yourself with the knowledge and skills gained through online
+                  education! Empower yourself with
+                  the knowledge and skills gained through online education!</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 mb-3">
+            <div class="card rounded-4 p-3 border-0">
+              <div class="card-body">
+                <div class="d-flex align-items-center">
+                  <div class="rounded-pill overflow-hidden me-4">
+                    <img src="/dist/assets/img/avatar-7.png" class="rounded-pill" alt="" width="80px" height="80px">
+                  </div>
+                  <div class="dark-gray-color">
+                    <h5>Michael Wong</h5>
+                    <div>UI/UX Design Student</div>
+                    <div>
+                      <iconify-icon icon="ic:round-star" class="text-warning"></iconify-icon> &nbsp;
+                      <span class="fw-semibold fs-5">4.9</span>
+                    </div>
+                  </div>
+
+                </div>
+
+                <p class="dark-gray-color mt-4">Empower yourself with the knowledge and skills gained through online
+                  education! Empower yourself with
+                  the knowledge and skills gained through online education!</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 mb-3">
+            <div class="card rounded-4 p-3 border-0">
+              <div class="card-body">
+                <div class="d-flex align-items-center">
+                  <div class="rounded-pill overflow-hidden me-4">
+                    <img src="/dist/assets/img/avatar-7.png" class="rounded-pill" alt="" width="80px" height="80px">
+                  </div>
+                  <div class="dark-gray-color">
+                    <h5>Michael Wong</h5>
+                    <div>UI/UX Design Student</div>
+                    <div>
+                      <iconify-icon icon="ic:round-star" class="text-warning"></iconify-icon> &nbsp;
+                      <span class="fw-semibold fs-5">4.9</span>
+                    </div>
+                  </div>
+
+                </div>
+
+                <p class="dark-gray-color mt-4">Empower yourself with the knowledge and skills gained through online
+                  education! Empower yourself with
+                  the knowledge and skills gained through online education!</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 mb-3">
+            <div class="card rounded-4 p-3 border-0">
+              <div class="card-body">
+                <div class="d-flex align-items-center">
+                  <div class="rounded-pill overflow-hidden me-4">
+                    <img src="/dist/assets/img/avatar-7.png" class="rounded-pill" alt="" width="80px" height="80px">
+                  </div>
+                  <div class="dark-gray-color">
+                    <h5>Michael Wong</h5>
+                    <div>UI/UX Design Student</div>
+                    <div>
+                      <iconify-icon icon="ic:round-star" class="text-warning"></iconify-icon> &nbsp;
+                      <span class="fw-semibold fs-5">4.9</span>
+                    </div>
+                  </div>
+
+                </div>
+
+                <p class="dark-gray-color mt-4">Empower yourself with the knowledge and skills gained through online
+                  education! Empower yourself with
+                  the knowledge and skills gained through online education!</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 mb-3">
+            <div class="card rounded-4 p-3 border-0">
+              <div class="card-body">
+                <div class="d-flex align-items-center">
+                  <div class="rounded-pill overflow-hidden me-4">
+                    <img src="/dist/assets/img/avatar-7.png" class="rounded-pill" alt="" width="80px" height="80px">
+                  </div>
+                  <div class="dark-gray-color">
+                    <h5>Michael Wong</h5>
+                    <div>UI/UX Design Student</div>
+                    <div>
+                      <iconify-icon icon="ic:round-star" class="text-warning"></iconify-icon> &nbsp;
+                      <span class="fw-semibold fs-5">4.9</span>
+                    </div>
+                  </div>
+
+                </div>
+
+                <p class="dark-gray-color mt-4">Empower yourself with the knowledge and skills gained through online
+                  education! Empower yourself with
+                  the knowledge and skills gained through online education!</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <div class="d-flex justify-content-center mt-4">
+              <a href=""
+                class="d-inline-block text-decoration-none px-5 py-3 bg-main rounded-3 me-3 mt-4 fw-semibold">Load more
+                &rightarrow;</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Review end -->
 
 
 

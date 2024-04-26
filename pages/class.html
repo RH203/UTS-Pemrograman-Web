@@ -2,17 +2,32 @@
 <html lang="en">
 
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>EduTech - Home</title>
+  <meta name="title" content="EduTech">
+  <meta name="description"
+    content="EduTech menyediakan sebuah kelas atau pelatihan secara online dan bisa di akses dimanapun dan kapanpun.">
+  <meta name="keywords" content="online course, technology, design, UI/UX, Web Development, Data Science">
+  <meta name="author" content="Irfan Yasin, Mario Achmad Taufik, Raihan Firdaus, Amore Purba">
+  <meta name="robots" content="index, follow">
+  <!-- Metadata untuk SEO (opsional) -->
+  <meta name="robots" content="index, follow">
+  <meta name="googlebot" content="index, follow">
+  <meta name="robots" content="noarchive">
+  <meta name="robots" content="nosnippet">
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="robots" content="max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+
+  <title>EduTech - Class</title>
   <!-- Bootstrap v5.3 -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-
+  <!-- Favicon -->
+  <link rel="icon" href="/dist/assets/logo/logo-fav.ico" type="image/x-icon">
+  <!-- Animation -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <!-- CSS -->
-  <link rel="stylesheet" href="../dist/css/style.css">
-  <link rel="stylesheet" href="../dist/css/custom-class.css">
-  <link rel="stylesheet" href="../dist/css/responsive.css">
+  <link rel="stylesheet" href="/dist/css/style.css">
+  <link rel="stylesheet" href="/dist/css/custom-class.css">
+  <link rel="stylesheet" href="/dist/css/responsive.css">
 </head>
 
 <body>
@@ -21,8 +36,8 @@
   <!-- Navbar start -->
   <nav class="navbar navbar-expand-lg bg-transparent fixed-top" style="width: 100vw;">
     <div class="container">
-      <a class="navbar-brand" href="#">
-        <img src="../dist/assets/logo/logo.png" alt="">
+      <a class="navbar-brand" href="/">
+        <img src="/dist/assets/logo/logo.png" alt="">
       </a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -34,23 +49,23 @@
             <a class="nav-link active" aria-current="page" href="/">Home</a>
           </li>
           <li class="nav-item me-3">
-            <a class="nav-link" href="#">About us</a>
+            <a class="nav-link" href="/">About us</a>
           </li>
           <li class="nav-item me-3 dropdown">
             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
               Our Class
             </a>
             <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="pages/detail-class.html">UI/UX Design</a></li>
-              <li><a class="dropdown-item" href="pages/detail-class.html">Web Development</a></li>
-              <li><a class="dropdown-item" href="pages/detail-class.html">Data Science</a></li>
+              <li><a class="dropdown-item" href="/pages/detail-class.html">UI/UX Design</a></li>
+              <li><a class="dropdown-item" href="/pages/detail-class.html">Web Development</a></li>
+              <li><a class="dropdown-item" href="/pages/detail-class.html">Data Science</a></li>
             </ul>
           </li>
           <li class="nav-item me-3">
-            <a class="nav-link" href="">Blog</a>
+            <a class="nav-link" href="/pages/blog.html">Blog</a>
           </li>
           <li class="nav-item me-3">
-            <a class="nav-link" href="">Contact</a>
+            <a class="nav-link" href="/login.html">Login</a>
           </li>
         </ul>
         <div class="me-3">
@@ -74,12 +89,15 @@
   </main>
   <!-- Main content end -->
 
-  <!--Best Class-->
-  <section id="our-class-section" class="mb-5" style="margin-top: 150px;">
+  <!-- Our class start -->
+  <section id="our-class-section" class="mb-5" style="margin-top: 100px;">
     <div class="container ">
       <div class="row">
         <div class="col d-flex justify-content-center">
-
+          <header class="text-center">
+            <h5 class="fw-light gray-color"><span class="line-horizontal"></span> Class Category</h5>
+            <h2>Best All Class</h2>
+          </header>
         </div>
       </div>
       <div class="row mt-5">
@@ -109,16 +127,16 @@
           </div>
         </div>
       </div>
-      
       <div class="row mt-5 tab-content" id="nav-tabContent">
+
+        <!-- Tab UI/UX Design start -->
         <div class="tab-pane fade show active" id="nav-design" role="tabpanel" aria-labelledby="nav-design-tab"
           tabindex="0">
           <div class="row">
-            <div class="col-lg-3 col-md-6 mb-3" data-aos="flip-right" data-aos-easing="linear"
-              data-aos-duration="1500">
-              <a href="" class="card-group d-inline-block text-decoration-none">
+            <div class="col-lg-3 col-md-6 mb-3" data-aos="flip-right" data-aos-easing="linear" data-aos-duration="1500">
+              <a href="detail-class.html" class="card-group d-inline-block text-decoration-none">
                 <div class="card rounded-4 border-0 overflow-hidden">
-                  <img src="../dist/assets/img/card-img-1.png" class="card-img-top " alt="img class 1">
+                  <img src="/dist/assets/img/thumbnail-1.png" class="card-img-top " alt="img class 1">
                   <div class="card-body p-4">
                     <h5 class="fs-4">Introduction to Design System in Figma</h5>
                     <div class="row d-flex align-items-center justify-content-between my-4">
@@ -144,12 +162,10 @@
                 </div>
               </a>
             </div>
-
-            <div class="col-lg-3 col-md-6 mb-3" data-aos="flip-right" data-aos-easing="linear"
-              data-aos-duration="1500">
-              <a href="" class="d-inline-block text-decoration-none">
+            <div class="col-lg-3 col-md-6 mb-3" data-aos="flip-right" data-aos-easing="linear" data-aos-duration="1500">
+              <a href="detail-class.html" class="d-inline-block text-decoration-none">
                 <div class="card rounded-4 border-0 overflow-hidden">
-                  <img src="../dist/assets/img/card-img-2.png" class="card-img-top " alt="img class 1">
+                  <img src="/dist/assets/img/thumbnail-2.jpg" class="card-img-top " alt="img class 1">
                   <div class="card-body p-4">
                     <h5 class="fs-4">Introduction to Design Thinking Framework</h5>
                     <div class="row d-flex align-items-center justify-content-between my-4">
@@ -175,11 +191,10 @@
                 </div>
               </a>
             </div>
-            <div class="col-lg-3 col-md-6 mb-3" data-aos="flip-right" data-aos-easing="linear"
-              data-aos-duration="1500">
-              <a href="" class="d-inline-block text-decoration-none">
+            <div class="col-lg-3 col-md-6 mb-3" data-aos="flip-right" data-aos-easing="linear" data-aos-duration="1500">
+              <a href="detail-class.html" class="d-inline-block text-decoration-none">
                 <div class="card rounded-4 border-0 overflow-hidden">
-                  <img src="../dist/assets/img/card-img-3.png" class="card-img-top " alt="img class 1">
+                  <img src="/dist/assets/img/thumbnail-3.png" class="card-img-top " alt="img class 1">
                   <div class="card-body p-4">
                     <h5 class="fs-4">Design Principle and Fundamentals for UI Designer</h5>
                     <div class="row d-flex align-items-center justify-content-between my-4">
@@ -205,375 +220,10 @@
                 </div>
               </a>
             </div>
-            <div class="col-lg-3 col-md-6 mb-3" data-aos="flip-right" data-aos-easing="linear"
-              data-aos-duration="1500">
-              <a href="" class="d-inline-block text-decoration-none">
+            <div class="col-lg-3 col-md-6 mb-3" data-aos="flip-right" data-aos-easing="linear" data-aos-duration="1500">
+              <a href="detail-class.html" class="d-inline-block text-decoration-none">
                 <div class="card rounded-4 border-0 overflow-hidden">
-                  <img src="../dist/assets/img/card-img-4.png" class="card-img-top " alt="img class 1">
-                  <div class="card-body p-4">
-                    <h5 class="fs-4">Designing Responsive Dashboard for Fintech in Figma</h5>
-                    <div class="row d-flex align-items-center justify-content-between my-4">
-                      <div class="col-6 d-flex align-items-center">
-                        <iconify-icon icon="pepicons-pencil:file"></iconify-icon> &nbsp;
-                        19 Lesson
-                      </div>
-                      <div class="col-6 d-flex align-items-center justify-content-end">
-                        <iconify-icon icon="carbon:time"></iconify-icon> &nbsp;
-                        16 Week
-                      </div>
-                    </div>
-                    <div class="row d-flex align-items-center justify-content-between">
-                      <div class="col-6">
-                        <span class="fw-semibold fs-5">$380</span>
-                      </div>
-                      <div class="col-6 d-flex align-items-center justify-content-end">
-                        <iconify-icon icon="ic:round-star" class="text-warning"></iconify-icon> &nbsp;
-                        <span class="fw-semibold fs-5">5.0</span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </a>
-            </div>
-            <div class="col-lg-3 col-md-6 mb-3" data-aos="flip-right" data-aos-easing="linear"
-              data-aos-duration="1500">
-              <a href="" class="card-group d-inline-block text-decoration-none">
-                <div class="card rounded-4 border-0 overflow-hidden">
-                  <img src="../dist/assets/img/card-img-1.png" class="card-img-top " alt="img class 1">
-                  <div class="card-body p-4">
-                    <h5 class="fs-4">Introduction to Design System in Figma</h5>
-                    <div class="row d-flex align-items-center justify-content-between my-4">
-                      <div class="col-6 d-flex align-items-center">
-                        <iconify-icon icon="pepicons-pencil:file"></iconify-icon> &nbsp;
-                        16 Lesson
-                      </div>
-                      <div class="col-6 d-flex align-items-center justify-content-end">
-                        <iconify-icon icon="carbon:time"></iconify-icon> &nbsp;
-                        16 Week
-                      </div>
-                    </div>
-                    <div class="row d-flex align-items-center justify-content-between">
-                      <div class="col-6">
-                        <span class="fw-semibold fs-5">$350</span>
-                      </div>
-                      <div class="col-6 d-flex align-items-center justify-content-end">
-                        <iconify-icon icon="ic:round-star" class="text-warning"></iconify-icon> &nbsp;
-                        <span class="fw-semibold fs-5">4.9</span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </a>
-            </div>
-            <div class="col-lg-3 col-md-6 mb-3" data-aos="flip-right" data-aos-easing="linear"
-              data-aos-duration="1500">
-              <a href="" class="d-inline-block text-decoration-none">
-                <div class="card rounded-4 border-0 overflow-hidden">
-                  <img src="../dist/assets/img/card-img-2.png" class="card-img-top " alt="img class 1">
-                  <div class="card-body p-4">
-                    <h5 class="fs-4">Introduction to Design Thinking Framework</h5>
-                    <div class="row d-flex align-items-center justify-content-between my-4">
-                      <div class="col-6 d-flex align-items-center">
-                        <iconify-icon icon="pepicons-pencil:file"></iconify-icon> &nbsp;
-                        17 Lesson
-                      </div>
-                      <div class="col-6 d-flex align-items-center justify-content-end">
-                        <iconify-icon icon="carbon:time"></iconify-icon> &nbsp;
-                        16 Week
-                      </div>
-                    </div>
-                    <div class="row d-flex align-items-center justify-content-between">
-                      <div class="col-6">
-                        <span class="fw-semibold fs-5">$360</span>
-                      </div>
-                      <div class="col-6 d-flex align-items-center justify-content-end">
-                        <iconify-icon icon="ic:round-star" class="text-warning"></iconify-icon> &nbsp;
-                        <span class="fw-semibold fs-5">4.7</span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </a>
-            </div>
-            <div class="col-lg-3 col-md-6 mb-3" data-aos="flip-right" data-aos-easing="linear"
-              data-aos-duration="1500">
-              <a href="" class="d-inline-block text-decoration-none">
-                <div class="card rounded-4 border-0 overflow-hidden">
-                  <img src="../dist/assets/img/card-img-3.png" class="card-img-top " alt="img class 1">
-                  <div class="card-body p-4">
-                    <h5 class="fs-4">Design Principle and Fundamentals for UI Designer</h5>
-                    <div class="row d-flex align-items-center justify-content-between my-4">
-                      <div class="col-6 d-flex align-items-center">
-                        <iconify-icon icon="pepicons-pencil:file"></iconify-icon> &nbsp;
-                        15 Lesson
-                      </div>
-                      <div class="col-6 d-flex align-items-center justify-content-end">
-                        <iconify-icon icon="carbon:time"></iconify-icon> &nbsp;
-                        16 Week
-                      </div>
-                    </div>
-                    <div class="row d-flex align-items-center justify-content-between">
-                      <div class="col-6">
-                        <span class="fw-semibold fs-5">$340</span>
-                      </div>
-                      <div class="col-6 d-flex align-items-center justify-content-end">
-                        <iconify-icon icon="ic:round-star" class="text-warning"></iconify-icon> &nbsp;
-                        <span class="fw-semibold fs-5">4.8</span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </a>
-            </div>
-            <div class="col-lg-3 col-md-6 mb-3" data-aos="flip-right" data-aos-easing="linear"
-              data-aos-duration="1500">
-              <a href="" class="d-inline-block text-decoration-none">
-                <div class="card rounded-4 border-0 overflow-hidden">
-                  <img src="../dist/assets/img/card-img-4.png" class="card-img-top " alt="img class 1">
-                  <div class="card-body p-4">
-                    <h5 class="fs-4">Designing Responsive Dashboard for Fintech in Figma</h5>
-                    <div class="row d-flex align-items-center justify-content-between my-4">
-                      <div class="col-6 d-flex align-items-center">
-                        <iconify-icon icon="pepicons-pencil:file"></iconify-icon> &nbsp;
-                        19 Lesson
-                      </div>
-                      <div class="col-6 d-flex align-items-center justify-content-end">
-                        <iconify-icon icon="carbon:time"></iconify-icon> &nbsp;
-                        16 Week
-                      </div>
-                    </div>
-                    <div class="row d-flex align-items-center justify-content-between">
-                      <div class="col-6">
-                        <span class="fw-semibold fs-5">$380</span>
-                      </div>
-                      <div class="col-6 d-flex align-items-center justify-content-end">
-                        <iconify-icon icon="ic:round-star" class="text-warning"></iconify-icon> &nbsp;
-                        <span class="fw-semibold fs-5">5.0</span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </a>
-            </div>
-            <div class="tab-pane fade show active" id="nav-design" role="tabpanel" aria-labelledby="nav-design-tab"
-          tabindex="0">
-          <div class="row">
-            <div class="col-lg-3 col-md-6 mb-3" data-aos="flip-right" data-aos-easing="linear"
-              data-aos-duration="1500">
-              <a href="" class="card-group d-inline-block text-decoration-none">
-                <div class="card rounded-4 border-0 overflow-hidden">
-                  <img src="../dist/assets/img/card-img-1.png" class="card-img-top " alt="img class 1">
-                  <div class="card-body p-4">
-                    <h5 class="fs-4">Introduction to Design System in Figma</h5>
-                    <div class="row d-flex align-items-center justify-content-between my-4">
-                      <div class="col-6 d-flex align-items-center">
-                        <iconify-icon icon="pepicons-pencil:file"></iconify-icon> &nbsp;
-                        16 Lesson
-                      </div>
-                      <div class="col-6 d-flex align-items-center justify-content-end">
-                        <iconify-icon icon="carbon:time"></iconify-icon> &nbsp;
-                        16 Week
-                      </div>
-                    </div>
-                    <div class="row d-flex align-items-center justify-content-between">
-                      <div class="col-6">
-                        <span class="fw-semibold fs-5">$350</span>
-                      </div>
-                      <div class="col-6 d-flex align-items-center justify-content-end">
-                        <iconify-icon icon="ic:round-star" class="text-warning"></iconify-icon> &nbsp;
-                        <span class="fw-semibold fs-5">4.9</span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </a>
-            </div>
-
-            <div class="col-lg-3 col-md-6 mb-3" data-aos="flip-right" data-aos-easing="linear"
-              data-aos-duration="1500">
-              <a href="" class="d-inline-block text-decoration-none">
-                <div class="card rounded-4 border-0 overflow-hidden">
-                  <img src="../dist/assets/img/card-img-2.png" class="card-img-top " alt="img class 1">
-                  <div class="card-body p-4">
-                    <h5 class="fs-4">Introduction to Design Thinking Framework</h5>
-                    <div class="row d-flex align-items-center justify-content-between my-4">
-                      <div class="col-6 d-flex align-items-center">
-                        <iconify-icon icon="pepicons-pencil:file"></iconify-icon> &nbsp;
-                        17 Lesson
-                      </div>
-                      <div class="col-6 d-flex align-items-center justify-content-end">
-                        <iconify-icon icon="carbon:time"></iconify-icon> &nbsp;
-                        16 Week
-                      </div>
-                    </div>
-                    <div class="row d-flex align-items-center justify-content-between">
-                      <div class="col-6">
-                        <span class="fw-semibold fs-5">$360</span>
-                      </div>
-                      <div class="col-6 d-flex align-items-center justify-content-end">
-                        <iconify-icon icon="ic:round-star" class="text-warning"></iconify-icon> &nbsp;
-                        <span class="fw-semibold fs-5">4.7</span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </a>
-            </div>
-            <div class="col-lg-3 col-md-6 mb-3" data-aos="flip-right" data-aos-easing="linear"
-              data-aos-duration="1500">
-              <a href="" class="d-inline-block text-decoration-none">
-                <div class="card rounded-4 border-0 overflow-hidden">
-                  <img src="../dist/assets/img/card-img-3.png" class="card-img-top " alt="img class 1">
-                  <div class="card-body p-4">
-                    <h5 class="fs-4">Design Principle and Fundamentals for UI Designer</h5>
-                    <div class="row d-flex align-items-center justify-content-between my-4">
-                      <div class="col-6 d-flex align-items-center">
-                        <iconify-icon icon="pepicons-pencil:file"></iconify-icon> &nbsp;
-                        15 Lesson
-                      </div>
-                      <div class="col-6 d-flex align-items-center justify-content-end">
-                        <iconify-icon icon="carbon:time"></iconify-icon> &nbsp;
-                        16 Week
-                      </div>
-                    </div>
-                    <div class="row d-flex align-items-center justify-content-between">
-                      <div class="col-6">
-                        <span class="fw-semibold fs-5">$340</span>
-                      </div>
-                      <div class="col-6 d-flex align-items-center justify-content-end">
-                        <iconify-icon icon="ic:round-star" class="text-warning"></iconify-icon> &nbsp;
-                        <span class="fw-semibold fs-5">4.8</span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </a>
-            </div>
-            <div class="col-lg-3 col-md-6 mb-3" data-aos="flip-right" data-aos-easing="linear"
-              data-aos-duration="1500">
-              <a href="" class="d-inline-block text-decoration-none">
-                <div class="card rounded-4 border-0 overflow-hidden">
-                  <img src="../dist/assets/img/card-img-4.png" class="card-img-top " alt="img class 1">
-                  <div class="card-body p-4">
-                    <h5 class="fs-4">Designing Responsive Dashboard for Fintech in Figma</h5>
-                    <div class="row d-flex align-items-center justify-content-between my-4">
-                      <div class="col-6 d-flex align-items-center">
-                        <iconify-icon icon="pepicons-pencil:file"></iconify-icon> &nbsp;
-                        19 Lesson
-                      </div>
-                      <div class="col-6 d-flex align-items-center justify-content-end">
-                        <iconify-icon icon="carbon:time"></iconify-icon> &nbsp;
-                        16 Week
-                      </div>
-                    </div>
-                    <div class="row d-flex align-items-center justify-content-between">
-                      <div class="col-6">
-                        <span class="fw-semibold fs-5">$380</span>
-                      </div>
-                      <div class="col-6 d-flex align-items-center justify-content-end">
-                        <iconify-icon icon="ic:round-star" class="text-warning"></iconify-icon> &nbsp;
-                        <span class="fw-semibold fs-5">5.0</span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </a>
-            </div>
-            <div class="col-lg-3 col-md-6 mb-3" data-aos="flip-right" data-aos-easing="linear"
-              data-aos-duration="1500">
-              <a href="" class="card-group d-inline-block text-decoration-none">
-                <div class="card rounded-4 border-0 overflow-hidden">
-                  <img src="../dist/assets/img/card-img-1.png" class="card-img-top " alt="img class 1">
-                  <div class="card-body p-4">
-                    <h5 class="fs-4">Introduction to Design System in Figma</h5>
-                    <div class="row d-flex align-items-center justify-content-between my-4">
-                      <div class="col-6 d-flex align-items-center">
-                        <iconify-icon icon="pepicons-pencil:file"></iconify-icon> &nbsp;
-                        16 Lesson
-                      </div>
-                      <div class="col-6 d-flex align-items-center justify-content-end">
-                        <iconify-icon icon="carbon:time"></iconify-icon> &nbsp;
-                        16 Week
-                      </div>
-                    </div>
-                    <div class="row d-flex align-items-center justify-content-between">
-                      <div class="col-6">
-                        <span class="fw-semibold fs-5">$350</span>
-                      </div>
-                      <div class="col-6 d-flex align-items-center justify-content-end">
-                        <iconify-icon icon="ic:round-star" class="text-warning"></iconify-icon> &nbsp;
-                        <span class="fw-semibold fs-5">4.9</span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </a>
-            </div>
-            <div class="col-lg-3 col-md-6 mb-3" data-aos="flip-right" data-aos-easing="linear"
-              data-aos-duration="1500">
-              <a href="" class="d-inline-block text-decoration-none">
-                <div class="card rounded-4 border-0 overflow-hidden">
-                  <img src="../dist/assets/img/card-img-2.png" class="card-img-top " alt="img class 1">
-                  <div class="card-body p-4">
-                    <h5 class="fs-4">Introduction to Design Thinking Framework</h5>
-                    <div class="row d-flex align-items-center justify-content-between my-4">
-                      <div class="col-6 d-flex align-items-center">
-                        <iconify-icon icon="pepicons-pencil:file"></iconify-icon> &nbsp;
-                        17 Lesson
-                      </div>
-                      <div class="col-6 d-flex align-items-center justify-content-end">
-                        <iconify-icon icon="carbon:time"></iconify-icon> &nbsp;
-                        16 Week
-                      </div>
-                    </div>
-                    <div class="row d-flex align-items-center justify-content-between">
-                      <div class="col-6">
-                        <span class="fw-semibold fs-5">$360</span>
-                      </div>
-                      <div class="col-6 d-flex align-items-center justify-content-end">
-                        <iconify-icon icon="ic:round-star" class="text-warning"></iconify-icon> &nbsp;
-                        <span class="fw-semibold fs-5">4.7</span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </a>
-            </div>
-            <div class="col-lg-3 col-md-6 mb-3" data-aos="flip-right" data-aos-easing="linear"
-              data-aos-duration="1500">
-              <a href="" class="d-inline-block text-decoration-none">
-                <div class="card rounded-4 border-0 overflow-hidden">
-                  <img src="../dist/assets/img/card-img-3.png" class="card-img-top " alt="img class 1">
-                  <div class="card-body p-4">
-                    <h5 class="fs-4">Design Principle and Fundamentals for UI Designer</h5>
-                    <div class="row d-flex align-items-center justify-content-between my-4">
-                      <div class="col-6 d-flex align-items-center">
-                        <iconify-icon icon="pepicons-pencil:file"></iconify-icon> &nbsp;
-                        15 Lesson
-                      </div>
-                      <div class="col-6 d-flex align-items-center justify-content-end">
-                        <iconify-icon icon="carbon:time"></iconify-icon> &nbsp;
-                        16 Week
-                      </div>
-                    </div>
-                    <div class="row d-flex align-items-center justify-content-between">
-                      <div class="col-6">
-                        <span class="fw-semibold fs-5">$340</span>
-                      </div>
-                      <div class="col-6 d-flex align-items-center justify-content-end">
-                        <iconify-icon icon="ic:round-star" class="text-warning"></iconify-icon> &nbsp;
-                        <span class="fw-semibold fs-5">4.8</span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </a>
-            </div>
-            <div class="col-lg-3 col-md-6 mb-3" data-aos="flip-right" data-aos-easing="linear"
-              data-aos-duration="1500">
-              <a href="" class="d-inline-block text-decoration-none">
-                <div class="card rounded-4 border-0 overflow-hidden">
-                  <img src="../dist/assets/img/card-img-4.png" class="card-img-top " alt="img class 1">
+                  <img src="/dist/assets/img/thumbnail-4.png" class="card-img-top " alt="img class 1">
                   <div class="card-body p-4">
                     <h5 class="fs-4">Designing Responsive Dashboard for Fintech in Figma</h5>
                     <div class="row d-flex align-items-center justify-content-between my-4">
@@ -601,15 +251,17 @@
             </div>
           </div>
         </div>
-          </div>
-        </div>
+        <!-- Tab UI/UX Design end -->
 
+
+
+        <!-- Tab web development start -->
         <div class="tab-pane fade" id="nav-webdev" role="tabpanel" aria-labelledby="nav-webdev-tab" tabindex="0">
           <div class="row">
             <div class="col-lg-3 col-md-6 mb-3">
               <a href="" class="card-group d-inline-block text-decoration-none">
                 <div class="card rounded-4 border-0 overflow-hidden">
-                  <img src="../dist/assets/img/card-img-1.png" class="card-img-top " alt="img class 1">
+                  <img src="/dist/assets/img/thumbnail-5.png" class="card-img-top " alt="img class 1">
                   <div class="card-body p-4">
                     <h5 class="fs-4">Introduction to Design System in Figma</h5>
                     <div class="row d-flex align-items-center justify-content-between my-4">
@@ -637,14 +289,17 @@
             </div>
           </div>
         </div>
+        <!-- Tab web development end -->
 
+
+        <!-- Tab data science start -->
         <div class="tab-pane fade" id="nav-data-science" role="tabpanel" aria-labelledby="nav-data-science-tab"
           tabindex="0">
           <div class="row">
             <div class="col-lg-3 col-md-6 mb-3">
               <a href="" class="card-group d-inline-block text-decoration-none">
                 <div class="card rounded-4 border-0 overflow-hidden">
-                  <img src="../dist/assets/img/card-img-1.png" class="card-img-top " alt="img class 1">
+                  <img src="/dist/assets/img/thumbnail-6.png" class="card-img-top " alt="img class 1">
                   <div class="card-body p-4">
                     <h5 class="fs-4">Introduction to Design System in Figma</h5>
                     <div class="row d-flex align-items-center justify-content-between my-4">
@@ -673,7 +328,65 @@
             <div class="col-lg-3 col-md-6 mb-3">
               <a href="" class="card-group d-inline-block text-decoration-none">
                 <div class="card rounded-4 border-0 overflow-hidden">
-                  <img src="../dist/assets/img/card-img-1.png" class="card-img-top " alt="img class 1">
+                  <img src="/dist/assets/img/thumbnail-7.png" class="card-img-top " alt="img class 1">
+                  <div class="card-body p-4">
+                    <h5 class="fs-4">Introduction to Design System in Figma</h5>
+                    <div class="row d-flex align-items-center justify-content-between my-4">
+                      <div class="col-6 d-flex align-items-center">
+                        <iconify-icon icon="pepicons-pencil:file"></iconify-icon> &nbsp;
+                        16 Lesson
+                      </div>
+                      <div class="col-6 d-flex align-items-center justify-content-end">
+                        <iconify-icon icon="carbon:time"></iconify-icon> &nbsp;
+                        16 Week
+                      </div>
+                    </div>
+                    <div class="row d-flex align-items-center justify-content-between">
+                      <div class="col-6">
+                        <span class="fw-semibold fs-5">$350</span>
+                      </div>
+                      <div class="col-6 d-flex align-items-center justify-content-end">
+                        <iconify-icon icon="ic:round-star" class="text-warning"></iconify-icon> &nbsp;
+                        <span class="fw-semibold fs-5">4.9</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="col-lg-3 col-md-6 mb-3">
+              <a href="" class="card-group d-inline-block text-decoration-none">
+                <div class="card rounded-4 border-0 overflow-hidden">
+                  <img src="/dist/assets/img/thumbnail-8.png" class="card-img-top " alt="img class 1">
+                  <div class="card-body p-4">
+                    <h5 class="fs-4">Introduction to Design System in Figma</h5>
+                    <div class="row d-flex align-items-center justify-content-between my-4">
+                      <div class="col-6 d-flex align-items-center">
+                        <iconify-icon icon="pepicons-pencil:file"></iconify-icon> &nbsp;
+                        16 Lesson
+                      </div>
+                      <div class="col-6 d-flex align-items-center justify-content-end">
+                        <iconify-icon icon="carbon:time"></iconify-icon> &nbsp;
+                        16 Week
+                      </div>
+                    </div>
+                    <div class="row d-flex align-items-center justify-content-between">
+                      <div class="col-6">
+                        <span class="fw-semibold fs-5">$350</span>
+                      </div>
+                      <div class="col-6 d-flex align-items-center justify-content-end">
+                        <iconify-icon icon="ic:round-star" class="text-warning"></iconify-icon> &nbsp;
+                        <span class="fw-semibold fs-5">4.9</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="col-lg-3 col-md-6 mb-3">
+              <a href="" class="card-group d-inline-block text-decoration-none">
+                <div class="card rounded-4 border-0 overflow-hidden">
+                  <img src="/dist/assets/img/thumbnail-9.png" class="card-img-top " alt="img class 1">
                   <div class="card-body p-4">
                     <h5 class="fs-4">Introduction to Design System in Figma</h5>
                     <div class="row d-flex align-items-center justify-content-between my-4">
@@ -701,20 +414,20 @@
             </div>
           </div>
         </div>
+        <!-- Tab data science end -->
       </div>
     </div>
-    
 
     <div class="d-flex justify-content-center mt-4">
-      <a href="" class="d-inline-block text-decoration-none px-5 py-3 bg-main rounded-3 me-3 mt-4 fw-semibold">View
-        all class &rightarrow;</a>
+      <a href="" class="d-inline-block text-decoration-none px-5 py-3 bg-main rounded-3 me-3 mt-4 fw-semibold">Load more
+        &rightarrow;</a>
     </div>
     </div>
   </section>
   <!-- Our class end -->
 
-<!-- Subscribe start -->
-<section id="subscribe-section" class="bg-main py-5">
+  <!-- Subscribe start -->
+  <section id="subscribe-section" class="bg-main py-5">
     <div class="container">
       <div class="row d-flex align-items-center">
         <div class="col-lg-8 mb-4">
@@ -792,13 +505,20 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
     crossorigin="anonymous"></script>
-
-  <script src="../dist/js/script.js"></script>
-
+  <!-- JQuery -->
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+  <!-- Animation -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   <!-- Iconify -->
   <script src="https://code.iconify.design/iconify-icon/2.1.0/iconify-icon.min.js"></script>
+
+  <script src="/dist/js/script.js"></script>
+
+  <!-- Initialization AOS -->
+  <script>
+    AOS.init();
+  </script>
 
 </body>
 
 </html>
-
